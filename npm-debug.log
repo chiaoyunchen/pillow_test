@@ -1,0 +1,1294 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'serverless', '-g' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.48
+4 verbose cache add [ 'serverless', null ]
+5 verbose cache add name=undefined spec="serverless" args=["serverless",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'serverless',
+6 verbose parsed url   path: 'serverless',
+6 verbose parsed url   href: 'serverless' }
+7 silly lockFile 89affbf9-serverless serverless
+8 verbose lock serverless /home/ec2-user/.npm/89affbf9-serverless.lock
+9 silly lockFile 89affbf9-serverless serverless
+10 silly lockFile 89affbf9-serverless serverless
+11 verbose addNamed [ 'serverless', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 277ed4dd-serverless serverless@
+14 verbose lock serverless@ /home/ec2-user/.npm/277ed4dd-serverless.lock
+15 silly addNameRange { name: 'serverless', range: '*', hasData: false }
+16 verbose url raw serverless
+17 verbose url resolving [ 'https://registry.npmjs.org/', './serverless' ]
+18 verbose url resolved https://registry.npmjs.org/serverless
+19 info trying registry request attempt 1 at 06:46:25
+20 http GET https://registry.npmjs.org/serverless
+21 http 200 https://registry.npmjs.org/serverless
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Sat, 25 Nov 2017 14:10:20 GMT',
+22 silly registry.get     etag: 'W/"5a1979cc-47a25"',
+22 silly registry.get     'content-encoding': 'gzip',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '29928',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 28 Nov 2017 06:46:25 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '288',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1511851586.778265,VS0,VE0',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'serverless', range: '*', hasData: true }
+24 silly addNameRange versions [ 'serverless',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.0.10',
+24 silly addNameRange     '0.0.11',
+24 silly addNameRange     '0.0.12',
+24 silly addNameRange     '0.0.13',
+24 silly addNameRange     '0.0.15',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.5.6',
+24 silly addNameRange     '1.0.0-alpha.1',
+24 silly addNameRange     '1.0.0-alpha.2',
+24 silly addNameRange     '1.0.0-beta.1',
+24 silly addNameRange     '1.0.0-beta.1.1',
+24 silly addNameRange     '1.0.0-beta.2',
+24 silly addNameRange     '1.0.0-rc.1',
+24 silly addNameRange     '1.0.0-rc.2',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.6.0',
+24 silly addNameRange     '1.6.1',
+24 silly addNameRange     '1.7.0',
+24 silly addNameRange     '1.8.0',
+24 silly addNameRange     '1.9.0',
+24 silly addNameRange     '1.10.0',
+24 silly addNameRange     '1.10.1',
+24 silly addNameRange     '1.10.2',
+24 silly addNameRange     '1.11.0',
+24 silly addNameRange     '1.12.0',
+24 silly addNameRange     '1.12.1',
+24 silly addNameRange     '1.13.0',
+24 silly addNameRange     '1.13.1',
+24 silly addNameRange     '1.13.2',
+24 silly addNameRange     '1.14.0',
+24 silly addNameRange     '1.15.0',
+24 silly addNameRange     '1.15.1',
+24 silly addNameRange     '1.15.2',
+24 silly addNameRange     '1.15.3',
+24 silly addNameRange     '1.15.4-alpha.1',
+24 silly addNameRange     '1.16.0',
+24 silly addNameRange     '1.16.1',
+24 silly addNameRange     '1.17.0-alpha.1',
+24 silly addNameRange     '1.17.0',
+24 silly addNameRange     '1.18.0',
+24 silly addNameRange     '1.18.1',
+24 silly addNameRange     '1.19.0',
+24 silly addNameRange     '1.20.0',
+24 silly addNameRange     '1.20.1',
+24 silly addNameRange     '1.20.2',
+24 silly addNameRange     '1.21.0',
+24 silly addNameRange     '1.21.1',
+24 silly addNameRange     '1.22.0',
+24 silly addNameRange     '1.23.0',
+24 silly addNameRange     '1.24.0',
+24 silly addNameRange     '1.24.1' ] ]
+25 verbose addNamed [ 'serverless', '1.24.1' ]
+26 verbose addNamed [ '1.24.1', '1.24.1' ]
+27 silly lockFile 265064b4-serverless-1-24-1 serverless@1.24.1
+28 verbose lock serverless@1.24.1 /home/ec2-user/.npm/265064b4-serverless-1-24-1.lock
+29 silly lockFile f760f7e2-serverless-serverless-1-24-1-tgz https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz
+30 verbose lock https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz /home/ec2-user/.npm/f760f7e2-serverless-serverless-1-24-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz',
+31 verbose addRemoteTarball   'dd092a186d404dc9e48151d1f7cc2df7d270355a' ]
+32 info retry fetch attempt 1 at 06:46:25
+33 verbose fetch to= /home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/tmp.tgz
+34 http GET https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz
+35 http 200 https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz
+36 verbose tar unpack /home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/tmp.tgz
+37 silly lockFile 67e2f13d-85816-0-9944795190822333-package tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+38 verbose lock tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package /home/ec2-user/.npm/67e2f13d-85816-0-9944795190822333-package.lock
+39 silly lockFile 53f047f8-85816-0-9944795190822333-tmp-tgz tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/tmp.tgz
+40 verbose lock tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/tmp.tgz /home/ec2-user/.npm/53f047f8-85816-0-9944795190822333-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE.txt
+45 silly gunzTarPerm extractEntry CHANGELOG.md
+46 silly gunzTarPerm extractEntry bin/serverless
+47 silly gunzTarPerm extractEntry bin/test
+48 silly gunzTarPerm extractEntry lib/Serverless.js
+49 silly gunzTarPerm extractEntry lib/Serverless.test.js
+50 silly gunzTarPerm extractEntry lib/classes/CLI.js
+51 silly gunzTarPerm extractEntry lib/classes/Error.js
+52 silly gunzTarPerm extractEntry lib/classes/Error.test.js
+53 silly gunzTarPerm extractEntry lib/classes/PluginManager.js
+54 silly gunzTarPerm extractEntry lib/classes/PluginManager.test.js
+55 silly gunzTarPerm extractEntry lib/classes/Config.test.js
+56 silly gunzTarPerm extractEntry lib/classes/Service.test.js
+57 silly gunzTarPerm extractEntry lib/classes/Utils.js
+58 silly gunzTarPerm extractEntry lib/classes/Utils.test.js
+59 silly gunzTarPerm extractEntry lib/classes/Variables.js
+60 silly gunzTarPerm extractEntry lib/classes/Variables.test.js
+61 silly gunzTarPerm extractEntry lib/classes/Config.js
+62 silly gunzTarPerm extractEntry lib/classes/YamlParser.js
+63 silly gunzTarPerm extractEntry lib/classes/CLI.test.js
+64 silly gunzTarPerm extractEntry lib/classes/YamlParser.test.js
+65 silly gunzTarPerm extractEntry lib/classes/Service.js
+66 silly gunzTarPerm extractEntry lib/plugins/logout/logout.js
+67 silly gunzTarPerm extractEntry lib/plugins/logout/logout.test.js
+68 silly gunzTarPerm extractEntry lib/plugins/Plugins.json
+69 silly gunzTarPerm extractEntry lib/plugins/config/config.js
+70 silly gunzTarPerm extractEntry lib/plugins/config/config.test.js
+71 silly gunzTarPerm extractEntry lib/plugins/create/create.js
+72 silly gunzTarPerm extractEntry lib/plugins/create/create.test.js
+73 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/package.json
+74 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/README.md
+75 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/handler.js
+76 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/gitignore
+77 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/serverless.yml
+78 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/.vs/aws-csharp/v15/.suo
+79 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/Handler.cs
+80 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/aws-csharp.csproj
+81 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/build.cmd
+82 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/build.sh
+83 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/gitignore
+84 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/global.json
+85 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/serverless.yml
+86 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/build.gradle
+87 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gitignore
+88 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradle/wrapper/gradle-wrapper.jar
+89 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradle/wrapper/gradle-wrapper.properties
+90 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradlew
+91 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradlew.bat
+92 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/serverless.yml
+93 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/groovy/com/serverless/ApiGatewayResponse.groovy
+94 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/groovy/com/serverless/Handler.groovy
+95 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/groovy/com/serverless/Response.groovy
+96 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/resources/log4j.properties
+97 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/build.gradle
+98 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gitignore
+99 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradle/wrapper/gradle-wrapper.jar
+100 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradle/wrapper/gradle-wrapper.properties
+101 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradlew
+102 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradlew.bat
+103 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/serverless.yml
+104 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/java/com/serverless/ApiGatewayResponse.java
+105 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/java/com/serverless/Handler.java
+106 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/java/com/serverless/Response.java
+107 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/resources/log4j.properties
+108 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/gitignore
+109 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/pom.xml
+110 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/serverless.yml
+111 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/java/com/serverless/ApiGatewayResponse.java
+112 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/java/com/serverless/Handler.java
+113 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/java/com/serverless/Response.java
+114 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/resources/log4j.properties
+115 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/gitignore
+116 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/pom.xml
+117 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/serverless.yml
+118 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/main/kotlin/com/serverless/ApiGatewayResponse.kt
+119 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/main/kotlin/com/serverless/Handler.kt
+120 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/main/kotlin/com/serverless/Response.kt
+121 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/test/kotlin/.gitkeep
+122 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/package.json
+123 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/build.gradle
+124 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gitignore
+125 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradle/wrapper/gradle-wrapper.jar
+126 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradle/wrapper/gradle-wrapper.properties
+127 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradlew
+128 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradlew.bat
+129 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/serverless.yml
+130 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/main/kotlin/com/serverless/ApiGatewayResponse.kt
+131 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/main/kotlin/com/serverless/Handler.kt
+132 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/main/kotlin/com/serverless/Response.kt
+133 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/test/kotlin/.gitkeep
+134 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs/handler.js
+135 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs/gitignore
+136 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs/serverless.yml
+137 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/package.json
+138 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/first.js
+139 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/second.js
+140 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/webpack.config.js
+141 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/gitignore
+142 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/serverless.yml
+143 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/package.json
+144 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/webpack.config.js
+145 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/gitignore
+146 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/handler.ts
+147 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/serverless.yml
+148 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/tsconfig.json
+149 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python/gitignore
+150 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python/handler.py
+151 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python/serverless.yml
+152 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python3/gitignore
+153 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python3/handler.py
+154 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python3/serverless.yml
+155 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/build.sbt
+156 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/gitignore
+157 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/project/assembly.sbt
+158 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/project/plugins.sbt
+159 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/serverless.yml
+160 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/ApiGatewayResponse.scala
+161 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/Handler.scala
+162 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/Request.scala
+163 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/Response.scala
+164 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/Handler.fs
+165 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/aws-fsharp.fsproj
+166 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/build.cmd
+167 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/build.sh
+168 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/gitignore
+169 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/global.json
+170 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/serverless.yml
+171 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/package.json
+172 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/index.js
+173 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/gitignore
+174 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/serverless.yml
+175 silly gunzTarPerm extractEntry lib/plugins/create/templates/hello-world/handler.js
+176 silly gunzTarPerm extractEntry lib/plugins/create/templates/hello-world/gitignore
+177 silly gunzTarPerm extractEntry lib/plugins/create/templates/hello-world/serverless.yml
+178 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/package.json
+179 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/handler.js
+180 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/gitignore
+181 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/serverless.yml
+182 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/package.json
+183 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/gitignore
+184 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/handler.py
+185 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/serverless.yml
+186 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/package.json
+187 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/README.md
+188 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/handler.js
+189 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/gitignore
+190 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/serverless.yml
+191 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/package.json
+192 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/README.md
+193 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/gitignore
+194 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/handler.php
+195 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/serverless.yml
+196 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/package.json
+197 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/README.md
+198 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/gitignore
+199 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/handler.py
+200 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/serverless.yml
+201 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/package.json
+202 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/README.md
+203 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/gitignore
+204 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/ping.swift
+205 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/serverless.yml
+206 silly gunzTarPerm extractEntry lib/plugins/create/templates/plugin/index.js
+207 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/package.json
+208 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/handler.js
+209 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/gitignore
+210 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/serverless.yml
+211 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/package.json
+212 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/gitignore
+213 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/handler.py
+214 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/serverless.yml
+215 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/package.json
+216 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/gitignore
+217 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/handler.rb
+218 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/serverless.yml
+219 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/package.json
+220 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/handler.js
+221 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/gitignore
+222 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/serverless.yml
+223 silly gunzTarPerm extractEntry lib/plugins/deploy/deploy.js
+224 silly gunzTarPerm extractEntry lib/plugins/deploy/deploy.test.js
+225 silly gunzTarPerm extractEntry lib/plugins/emit/index.js
+226 silly gunzTarPerm extractEntry lib/plugins/emit/index.test.js
+227 silly gunzTarPerm extractEntry lib/plugins/info/info.js
+228 silly gunzTarPerm extractEntry lib/plugins/info/info.test.js
+229 silly gunzTarPerm extractEntry lib/plugins/install/install.js
+230 silly gunzTarPerm extractEntry lib/plugins/install/install.test.js
+231 silly gunzTarPerm extractEntry lib/plugins/invoke/invoke.js
+232 silly gunzTarPerm extractEntry lib/plugins/invoke/invoke.test.js
+233 silly gunzTarPerm extractEntry lib/plugins/lib/validate.js
+234 silly gunzTarPerm extractEntry lib/plugins/lib/validate.test.js
+235 silly gunzTarPerm extractEntry lib/plugins/login/login.js
+236 silly gunzTarPerm extractEntry lib/plugins/login/login.test.js
+237 silly gunzTarPerm extractEntry lib/plugins/login/lib/decryptToken.js
+238 silly gunzTarPerm extractEntry lib/plugins/login/lib/decryptToken.test.js
+239 silly gunzTarPerm extractEntry lib/plugins/login/lib/getCliLoginById.js
+240 silly gunzTarPerm extractEntry lib/plugins/login/lib/getCliLoginById.test.js
+241 silly gunzTarPerm extractEntry lib/plugins/aws/lib/monitorStack.js
+242 silly gunzTarPerm extractEntry lib/plugins/aws/lib/naming.test.js
+243 silly gunzTarPerm extractEntry lib/plugins/aws/lib/normalizeFiles.js
+244 silly gunzTarPerm extractEntry lib/plugins/aws/lib/normalizeFiles.test.js
+245 silly gunzTarPerm extractEntry lib/plugins/aws/lib/setBucketName.js
+246 silly gunzTarPerm extractEntry lib/plugins/aws/lib/naming.js
+247 silly gunzTarPerm extractEntry lib/plugins/aws/lib/updateStack.js
+248 silly gunzTarPerm extractEntry lib/plugins/aws/lib/updateStack.test.js
+249 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validate.js
+250 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validate.test.js
+251 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validateS3BucketName.js
+252 silly gunzTarPerm extractEntry lib/plugins/aws/lib/monitorStack.test.js
+253 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validateS3BucketName.test.js
+254 silly gunzTarPerm extractEntry lib/plugins/aws/lib/setBucketName.test.js
+255 silly gunzTarPerm extractEntry lib/plugins/aws/common/index.js
+256 silly gunzTarPerm extractEntry lib/plugins/aws/common/index.test.js
+257 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/artifacts.js
+258 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/artifacts.test.js
+259 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/cleanupTempDir.js
+260 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/cleanupTempDir.test.js
+261 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/index.js
+262 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/index.test.js
+263 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/checkForChanges.js
+264 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/cleanupS3Bucket.js
+265 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/cleanupS3Bucket.test.js
+266 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/createStack.js
+267 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/createStack.test.js
+268 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/checkForChanges.test.js
+269 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/extendedValidate.test.js
+270 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/uploadArtifacts.js
+271 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/uploadArtifacts.test.js
+272 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/validateTemplate.js
+273 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/validateTemplate.test.js
+274 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/extendedValidate.js
+275 silly gunzTarPerm extractEntry lib/plugins/aws/deployFunction/index.js
+276 silly gunzTarPerm extractEntry lib/plugins/aws/deployFunction/index.test.js
+277 silly gunzTarPerm extractEntry lib/plugins/aws/deployList/index.js
+278 silly gunzTarPerm extractEntry lib/plugins/aws/deployList/index.test.js
+279 silly gunzTarPerm extractEntry lib/plugins/aws/info/display.js
+280 silly gunzTarPerm extractEntry lib/plugins/aws/info/display.test.js
+281 silly gunzTarPerm extractEntry lib/plugins/aws/info/getApiKeyValues.js
+282 silly gunzTarPerm extractEntry lib/plugins/aws/info/getApiKeyValues.test.js
+283 silly gunzTarPerm extractEntry lib/plugins/aws/info/getStackInfo.js
+284 silly gunzTarPerm extractEntry lib/plugins/aws/info/getStackInfo.test.js
+285 silly gunzTarPerm extractEntry lib/plugins/aws/info/index.js
+286 silly gunzTarPerm extractEntry lib/plugins/aws/info/index.test.js
+287 silly gunzTarPerm extractEntry lib/plugins/aws/invoke/index.js
+288 silly gunzTarPerm extractEntry lib/plugins/aws/invoke/index.test.js
+289 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/.npmignore
+290 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/index.js
+291 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/index.test.js
+292 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/handlerWithError.js
+293 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/handlerWithSuccess.js
+294 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/__init__.py
+295 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/handler.py
+296 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/invoke.py
+297 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/MANIFEST.mf
+298 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/pom.xml
+299 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/src/main/java/com/serverless/Context.java
+300 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/src/main/java/com/serverless/InvokeBridge.java
+301 silly gunzTarPerm extractEntry lib/plugins/aws/configCredentials/awsConfigCredentials.js
+302 silly gunzTarPerm extractEntry lib/plugins/aws/configCredentials/awsConfigCredentials.test.js
+303 silly gunzTarPerm extractEntry lib/plugins/aws/logs/index.js
+304 silly gunzTarPerm extractEntry lib/plugins/aws/logs/index.test.js
+305 silly gunzTarPerm extractEntry lib/plugins/aws/metrics/awsMetrics.js
+306 silly gunzTarPerm extractEntry lib/plugins/aws/metrics/awsMetrics.test.js
+307 silly gunzTarPerm extractEntry lib/plugins/aws/package/index.js
+308 silly gunzTarPerm extractEntry lib/plugins/aws/package/index.test.js
+309 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cognitoUserPool/index.js
+310 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cognitoUserPool/index.test.js
+311 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSkill/index.js
+312 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSkill/index.test.js
+313 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/index.js
+314 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/index.test.js
+315 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/apiKeys.js
+316 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/deployment.test.js
+317 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/disassociateUsagePlan.js
+318 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/disassociateUsagePlan.test.js
+319 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/validate.js
+320 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/deployment.js
+321 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/permissions.test.js
+322 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/resources.js
+323 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/resources.test.js
+324 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/restApi.js
+325 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/restApi.test.js
+326 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/cors.test.js
+327 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlan.js
+328 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/cors.js
+329 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlan.test.js
+330 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/authorizers.test.js
+331 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlanKeys.js
+332 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/authorizers.js
+333 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlanKeys.test.js
+334 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/apiKeys.test.js
+335 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/validate.test.js
+336 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/permissions.js
+337 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/authorization.js
+338 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/index.js
+339 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/index.test.js
+340 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/integration.js
+341 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/responses.js
+342 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchEvent/index.js
+343 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchEvent/index.test.js
+344 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchLog/index.js
+345 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchLog/index.test.js
+346 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSmartHome/index.js
+347 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSmartHome/index.test.js
+348 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/iot/index.js
+349 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/iot/index.test.js
+350 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/s3/index.js
+351 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/s3/index.test.js
+352 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/schedule/index.js
+353 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/schedule/index.test.js
+354 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/sns/index.js
+355 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/sns/index.test.js
+356 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/stream/index.js
+357 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/stream/index.test.js
+358 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/functions/index.js
+359 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/functions/index.test.js
+360 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveServiceState.test.js
+361 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateCoreTemplate.js
+362 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateCoreTemplate.test.js
+363 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveServiceState.js
+364 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateArtifactDirectoryName.test.js
+365 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateArtifactDirectoryName.js
+366 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeIamTemplates.js
+367 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeIamTemplates.test.js
+368 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveCompiledTemplate.js
+369 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveCompiledTemplate.test.js
+370 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeCustomProviderResources.js
+371 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeCustomProviderResources.test.js
+372 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/iam-role-lambda-execution-template.json
+373 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/core-cloudformation-template.json
+374 silly gunzTarPerm extractEntry lib/plugins/aws/provider/awsProvider.js
+375 silly gunzTarPerm extractEntry lib/plugins/aws/provider/awsProvider.test.js
+376 silly gunzTarPerm extractEntry lib/plugins/aws/remove/index.js
+377 silly gunzTarPerm extractEntry lib/plugins/aws/remove/index.test.js
+378 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/bucket.js
+379 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/bucket.test.js
+380 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/stack.js
+381 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/stack.test.js
+382 silly gunzTarPerm extractEntry lib/plugins/aws/rollback/index.js
+383 silly gunzTarPerm extractEntry lib/plugins/aws/rollback/index.test.js
+384 silly gunzTarPerm extractEntry lib/plugins/aws/rollbackFunction/index.js
+385 silly gunzTarPerm extractEntry lib/plugins/aws/rollbackFunction/index.test.js
+386 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findAndGroupDeployments.js
+387 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findAndGroupDeployments.test.js
+388 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findReferences.js
+389 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findReferences.test.js
+390 silly gunzTarPerm extractEntry lib/plugins/aws/utils/formatLambdaLogEvent.js
+391 silly gunzTarPerm extractEntry lib/plugins/aws/utils/formatLambdaLogEvent.test.js
+392 silly gunzTarPerm extractEntry lib/plugins/aws/utils/getS3ObjectsFromStacks.js
+393 silly gunzTarPerm extractEntry lib/plugins/aws/utils/getS3ObjectsFromStacks.test.js
+394 silly gunzTarPerm extractEntry lib/plugins/logs/logs.js
+395 silly gunzTarPerm extractEntry lib/plugins/logs/logs.test.js
+396 silly gunzTarPerm extractEntry lib/plugins/metrics/metrics.js
+397 silly gunzTarPerm extractEntry lib/plugins/metrics/metrics.test.js
+398 silly gunzTarPerm extractEntry lib/plugins/package/package.js
+399 silly gunzTarPerm extractEntry lib/plugins/package/package.test.js
+400 silly gunzTarPerm extractEntry lib/plugins/package/lib/packageService.js
+401 silly gunzTarPerm extractEntry lib/plugins/package/lib/packageService.test.js
+402 silly gunzTarPerm extractEntry lib/plugins/package/lib/zipService.js
+403 silly gunzTarPerm extractEntry lib/plugins/package/lib/zipService.test.js
+404 silly gunzTarPerm extractEntry lib/plugins/platform/platform.js
+405 silly gunzTarPerm extractEntry lib/plugins/platform/platform.test.js
+406 silly gunzTarPerm extractEntry lib/plugins/plugin/plugin.js
+407 silly gunzTarPerm extractEntry lib/plugins/plugin/plugin.test.js
+408 silly gunzTarPerm extractEntry lib/plugins/plugin/install/install.js
+409 silly gunzTarPerm extractEntry lib/plugins/plugin/install/install.test.js
+410 silly gunzTarPerm extractEntry lib/plugins/plugin/lib/utils.js
+411 silly gunzTarPerm extractEntry lib/plugins/plugin/lib/utils.test.js
+412 silly gunzTarPerm extractEntry lib/plugins/plugin/list/list.js
+413 silly gunzTarPerm extractEntry lib/plugins/plugin/list/list.test.js
+414 silly gunzTarPerm extractEntry lib/plugins/plugin/search/search.js
+415 silly gunzTarPerm extractEntry lib/plugins/plugin/search/search.test.js
+416 silly gunzTarPerm extractEntry lib/plugins/plugin/uninstall/uninstall.js
+417 silly gunzTarPerm extractEntry lib/plugins/plugin/uninstall/uninstall.test.js
+418 silly gunzTarPerm extractEntry lib/plugins/print/print.js
+419 silly gunzTarPerm extractEntry lib/plugins/print/print.test.js
+420 silly gunzTarPerm extractEntry lib/plugins/remove/remove.js
+421 silly gunzTarPerm extractEntry lib/plugins/remove/remove.test.js
+422 silly gunzTarPerm extractEntry lib/plugins/rollback/index.js
+423 silly gunzTarPerm extractEntry lib/plugins/rollback/index.test.js
+424 silly gunzTarPerm extractEntry lib/plugins/run/index.js
+425 silly gunzTarPerm extractEntry lib/plugins/run/utils/deployFunctionToLocalEmulator.js
+426 silly gunzTarPerm extractEntry lib/plugins/run/utils/getLocalRootUrl.js
+427 silly gunzTarPerm extractEntry lib/plugins/run/utils/getTmpDirPath.js
+428 silly gunzTarPerm extractEntry lib/plugins/run/utils/installEventGateway.js
+429 silly gunzTarPerm extractEntry lib/plugins/run/utils/getLocalEmulatorFunctionConfig.js
+430 silly gunzTarPerm extractEntry lib/plugins/run/utils/localEmulatorInstalled.js
+431 silly gunzTarPerm extractEntry lib/plugins/run/utils/localEmulatorRunning.js
+432 silly gunzTarPerm extractEntry lib/plugins/run/utils/log.js
+433 silly gunzTarPerm extractEntry lib/plugins/run/utils/logEventGateway.js
+434 silly gunzTarPerm extractEntry lib/plugins/run/utils/logEventGateway.test.js
+435 silly gunzTarPerm extractEntry lib/plugins/run/utils/getFunctionToRegister.js
+436 silly gunzTarPerm extractEntry lib/plugins/run/utils/logLocalEmulator.js
+437 silly gunzTarPerm extractEntry lib/plugins/run/utils/getConfigureConfig.js
+438 silly gunzTarPerm extractEntry lib/plugins/run/utils/logServerless.js
+439 silly gunzTarPerm extractEntry lib/plugins/run/utils/eventGatewayRunning.js
+440 silly gunzTarPerm extractEntry lib/plugins/run/utils/manageEventGateway.js
+441 silly gunzTarPerm extractEntry lib/plugins/run/utils/eventGatewayInstalled.js
+442 silly gunzTarPerm extractEntry lib/plugins/run/utils/manageLocalEmulator.js
+443 silly gunzTarPerm extractEntry lib/plugins/run/utils/deployFunctionsToLocalEmulator.js
+444 silly gunzTarPerm extractEntry lib/plugins/run/utils/registerFunctionsToEventGateway.js
+445 silly gunzTarPerm extractEntry lib/plugins/run/utils/installLocalEmulator.js
+446 silly gunzTarPerm extractEntry lib/plugins/slstats/slstats.js
+447 silly gunzTarPerm extractEntry lib/plugins/slstats/slstats.test.js
+448 silly gunzTarPerm extractEntry lib/utils/autocomplete.js
+449 silly gunzTarPerm extractEntry lib/utils/getCacheFile.js
+450 silly gunzTarPerm extractEntry lib/utils/getCacheFilePath.js
+451 silly gunzTarPerm extractEntry lib/utils/getFrameworkId.js
+452 silly gunzTarPerm extractEntry lib/utils/getAuthToken.js
+453 silly gunzTarPerm extractEntry lib/utils/getServerlessConfigFile.test.js
+454 silly gunzTarPerm extractEntry lib/utils/clearConsole.js
+455 silly gunzTarPerm extractEntry lib/utils/getTrackingConfigFileName.js
+456 silly gunzTarPerm extractEntry lib/utils/isTrackingDisabled.js
+457 silly gunzTarPerm extractEntry lib/utils/userStats.js
+458 silly gunzTarPerm extractEntry lib/utils/functionInfoUtils.js
+459 silly gunzTarPerm extractEntry lib/utils/openBrowser.js
+460 silly gunzTarPerm extractEntry lib/utils/userStatsValidation.js
+461 silly gunzTarPerm extractEntry lib/utils/openBrowser.test.js
+462 silly gunzTarPerm extractEntry lib/utils/downloadTemplateFromRepo.test.js
+463 silly gunzTarPerm extractEntry lib/utils/renameService.js
+464 silly gunzTarPerm extractEntry lib/utils/downloadTemplateFromRepo.js
+465 silly gunzTarPerm extractEntry lib/utils/renameService.test.js
+466 silly gunzTarPerm extractEntry lib/utils/createApolloClient.js
+467 silly gunzTarPerm extractEntry lib/utils/segment.js
+468 silly gunzTarPerm extractEntry lib/utils/yamlAstParser.js
+469 silly gunzTarPerm extractEntry lib/utils/sentry.js
+470 silly gunzTarPerm extractEntry lib/utils/getServerlessConfigFile.js
+471 silly gunzTarPerm extractEntry lib/utils/yamlAstParser.test.js
+472 silly gunzTarPerm extractEntry lib/utils/getServerlessDir.js
+473 silly gunzTarPerm extractEntry lib/utils/selectors/selectServicePublish.js
+474 silly gunzTarPerm extractEntry lib/utils/selectors/selectServicePublish.test.js
+475 silly gunzTarPerm extractEntry lib/utils/log/consoleLog.js
+476 silly gunzTarPerm extractEntry lib/utils/log/fileLog.js
+477 silly gunzTarPerm extractEntry lib/utils/log/log.js
+478 silly gunzTarPerm extractEntry lib/utils/log/serverlessLog.js
+479 silly gunzTarPerm extractEntry lib/utils/fs/copyDirContentsSync.js
+480 silly gunzTarPerm extractEntry lib/utils/fs/parse.test.js
+481 silly gunzTarPerm extractEntry lib/utils/fs/readFile.js
+482 silly gunzTarPerm extractEntry lib/utils/fs/readFile.test.js
+483 silly gunzTarPerm extractEntry lib/utils/fs/parse.js
+484 silly gunzTarPerm extractEntry lib/utils/fs/readFileIfExists.test.js
+485 silly gunzTarPerm extractEntry lib/utils/fs/readFileSync.js
+486 silly gunzTarPerm extractEntry lib/utils/fs/readFileSync.test.js
+487 silly gunzTarPerm extractEntry lib/utils/fs/removeFile.js
+488 silly gunzTarPerm extractEntry lib/utils/fs/removeFileSync.js
+489 silly gunzTarPerm extractEntry lib/utils/fs/fse.js
+490 silly gunzTarPerm extractEntry lib/utils/fs/walkDirSync.js
+491 silly gunzTarPerm extractEntry lib/utils/fs/fileExistsSync.test.js
+492 silly gunzTarPerm extractEntry lib/utils/fs/walkDirSync.test.js
+493 silly gunzTarPerm extractEntry lib/utils/fs/fileExistsSync.js
+494 silly gunzTarPerm extractEntry lib/utils/fs/writeFile.js
+495 silly gunzTarPerm extractEntry lib/utils/fs/fileExists.test.js
+496 silly gunzTarPerm extractEntry lib/utils/fs/writeFile.test.js
+497 silly gunzTarPerm extractEntry lib/utils/fs/fileExists.js
+498 silly gunzTarPerm extractEntry lib/utils/fs/writeFileSync.js
+499 silly gunzTarPerm extractEntry lib/utils/fs/dirExistsSync.js
+500 silly gunzTarPerm extractEntry lib/utils/fs/writeFileSync.test.js
+501 silly gunzTarPerm extractEntry lib/utils/fs/readFileIfExists.js
+502 silly gunzTarPerm extractEntry lib/utils/config/config.test.js
+503 silly gunzTarPerm extractEntry lib/utils/config/index.js
+504 silly gunzTarPerm extractEntry lib/utils/config/initialSetup.js
+505 silly gunzTarPerm extractEntry scripts/postinstall.js
+506 silly gunzTarPerm extractEntry scripts/pre-release.js
+507 silly gunzTarPerm extractEntry scripts/preuninstall.js
+508 silly gunzTarPerm extractEntry package-lock.json
+509 silly lockFile 67e2f13d-85816-0-9944795190822333-package tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+510 silly lockFile 67e2f13d-85816-0-9944795190822333-package tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+511 silly lockFile 53f047f8-85816-0-9944795190822333-tmp-tgz tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/tmp.tgz
+512 silly lockFile 53f047f8-85816-0-9944795190822333-tmp-tgz tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/tmp.tgz
+513 verbose tar pack [ '/home/ec2-user/.npm/serverless/1.24.1/package.tgz',
+513 verbose tar pack   '/home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package' ]
+514 verbose tarball /home/ec2-user/.npm/serverless/1.24.1/package.tgz
+515 verbose folder /home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+516 silly lockFile 67e2f13d-85816-0-9944795190822333-package tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+517 verbose lock tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package /home/ec2-user/.npm/67e2f13d-85816-0-9944795190822333-package.lock
+518 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+519 verbose lock tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz /home/ec2-user/.npm/efe91d0d-pm-serverless-1-24-1-package-tgz.lock
+520 silly lockFile 67e2f13d-85816-0-9944795190822333-package tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+521 silly lockFile 67e2f13d-85816-0-9944795190822333-package tar:///home/ec2-user/tmp/npm-19055-JosGQqy0/1511851585816-0.9944795190822333/package
+522 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+523 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+524 silly lockFile 3722d3c3-er-npm-serverless-1-24-1-package /home/ec2-user/.npm/serverless/1.24.1/package
+525 verbose lock /home/ec2-user/.npm/serverless/1.24.1/package /home/ec2-user/.npm/3722d3c3-er-npm-serverless-1-24-1-package.lock
+526 silly lockFile 3722d3c3-er-npm-serverless-1-24-1-package /home/ec2-user/.npm/serverless/1.24.1/package
+527 silly lockFile 3722d3c3-er-npm-serverless-1-24-1-package /home/ec2-user/.npm/serverless/1.24.1/package
+528 verbose tar unpack /home/ec2-user/.npm/serverless/1.24.1/package.tgz
+529 silly lockFile e8fd4717-er-npm-serverless-1-24-1-package tar:///home/ec2-user/.npm/serverless/1.24.1/package
+530 verbose lock tar:///home/ec2-user/.npm/serverless/1.24.1/package /home/ec2-user/.npm/e8fd4717-er-npm-serverless-1-24-1-package.lock
+531 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+532 verbose lock tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz /home/ec2-user/.npm/efe91d0d-pm-serverless-1-24-1-package-tgz.lock
+533 silly gunzTarPerm modes [ '755', '644' ]
+534 silly gunzTarPerm extractEntry package.json
+535 silly gunzTarPerm extractEntry README.md
+536 silly gunzTarPerm extractEntry CHANGELOG.md
+537 silly gunzTarPerm extractEntry LICENSE.txt
+538 silly gunzTarPerm extractEntry bin/serverless
+539 silly gunzTarPerm extractEntry bin/test
+540 silly gunzTarPerm extractEntry lib/Serverless.js
+541 silly gunzTarPerm extractEntry lib/Serverless.test.js
+542 silly gunzTarPerm extractEntry lib/classes/CLI.js
+543 silly gunzTarPerm extractEntry lib/classes/Error.js
+544 silly gunzTarPerm extractEntry lib/classes/Error.test.js
+545 silly gunzTarPerm extractEntry lib/classes/PluginManager.js
+546 silly gunzTarPerm extractEntry lib/classes/PluginManager.test.js
+547 silly gunzTarPerm extractEntry lib/classes/Config.test.js
+548 silly gunzTarPerm extractEntry lib/classes/Service.test.js
+549 silly gunzTarPerm extractEntry lib/classes/Utils.js
+550 silly gunzTarPerm extractEntry lib/classes/Utils.test.js
+551 silly gunzTarPerm extractEntry lib/classes/Variables.js
+552 silly gunzTarPerm extractEntry lib/classes/Variables.test.js
+553 silly gunzTarPerm extractEntry lib/classes/Config.js
+554 silly gunzTarPerm extractEntry lib/classes/YamlParser.js
+555 silly gunzTarPerm extractEntry lib/classes/CLI.test.js
+556 silly gunzTarPerm extractEntry lib/classes/YamlParser.test.js
+557 silly gunzTarPerm extractEntry lib/classes/Service.js
+558 silly gunzTarPerm extractEntry lib/plugins/logout/logout.js
+559 silly gunzTarPerm extractEntry lib/plugins/logout/logout.test.js
+560 silly gunzTarPerm extractEntry lib/plugins/Plugins.json
+561 silly gunzTarPerm extractEntry lib/plugins/config/config.js
+562 silly gunzTarPerm extractEntry lib/plugins/config/config.test.js
+563 silly gunzTarPerm extractEntry lib/plugins/create/create.js
+564 silly gunzTarPerm extractEntry lib/plugins/create/create.test.js
+565 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/package.json
+566 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/README.md
+567 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/handler.js
+568 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/gitignore
+569 silly gunzTarPerm extractEntry lib/plugins/create/templates/azure-nodejs/serverless.yml
+570 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/.vs/aws-csharp/v15/.suo
+571 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/Handler.cs
+572 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/aws-csharp.csproj
+573 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/build.cmd
+574 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/build.sh
+575 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/gitignore
+576 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/global.json
+577 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-csharp/serverless.yml
+578 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/build.gradle
+579 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gitignore
+580 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradle/wrapper/gradle-wrapper.jar
+581 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradle/wrapper/gradle-wrapper.properties
+582 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradlew
+583 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/gradlew.bat
+584 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/serverless.yml
+585 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/groovy/com/serverless/ApiGatewayResponse.groovy
+586 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/groovy/com/serverless/Handler.groovy
+587 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/groovy/com/serverless/Response.groovy
+588 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-groovy-gradle/src/main/resources/log4j.properties
+589 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/build.gradle
+590 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gitignore
+591 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradle/wrapper/gradle-wrapper.jar
+592 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradle/wrapper/gradle-wrapper.properties
+593 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradlew
+594 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/gradlew.bat
+595 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/serverless.yml
+596 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/java/com/serverless/ApiGatewayResponse.java
+597 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/java/com/serverless/Handler.java
+598 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/java/com/serverless/Response.java
+599 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-gradle/src/main/resources/log4j.properties
+600 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/gitignore
+601 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/pom.xml
+602 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/serverless.yml
+603 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/java/com/serverless/ApiGatewayResponse.java
+604 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/java/com/serverless/Handler.java
+605 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/java/com/serverless/Response.java
+606 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-java-maven/src/main/resources/log4j.properties
+607 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/gitignore
+608 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/pom.xml
+609 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/serverless.yml
+610 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/main/kotlin/com/serverless/ApiGatewayResponse.kt
+611 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/main/kotlin/com/serverless/Handler.kt
+612 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/main/kotlin/com/serverless/Response.kt
+613 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-jvm-maven/src/test/kotlin/.gitkeep
+614 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/package.json
+615 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/build.gradle
+616 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gitignore
+617 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradle/wrapper/gradle-wrapper.jar
+618 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradle/wrapper/gradle-wrapper.properties
+619 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradlew
+620 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/gradlew.bat
+621 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/serverless.yml
+622 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/main/kotlin/com/serverless/ApiGatewayResponse.kt
+623 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/main/kotlin/com/serverless/Handler.kt
+624 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/main/kotlin/com/serverless/Response.kt
+625 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-kotlin-nodejs-gradle/src/test/kotlin/.gitkeep
+626 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs/handler.js
+627 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs/gitignore
+628 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs/serverless.yml
+629 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/package.json
+630 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/first.js
+631 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/second.js
+632 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/webpack.config.js
+633 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/gitignore
+634 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-ecma-script/serverless.yml
+635 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/package.json
+636 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/webpack.config.js
+637 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/gitignore
+638 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/handler.ts
+639 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/serverless.yml
+640 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-nodejs-typescript/tsconfig.json
+641 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python/gitignore
+642 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python/handler.py
+643 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python/serverless.yml
+644 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python3/gitignore
+645 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python3/handler.py
+646 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-python3/serverless.yml
+647 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/build.sbt
+648 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/gitignore
+649 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/project/assembly.sbt
+650 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/project/plugins.sbt
+651 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/serverless.yml
+652 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/ApiGatewayResponse.scala
+653 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/Handler.scala
+654 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/Request.scala
+655 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-scala-sbt/src/main/scala/hello/Response.scala
+656 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/Handler.fs
+657 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/aws-fsharp.fsproj
+658 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/build.cmd
+659 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/build.sh
+660 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/gitignore
+661 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/global.json
+662 silly gunzTarPerm extractEntry lib/plugins/create/templates/aws-fsharp/serverless.yml
+663 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/package.json
+664 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/index.js
+665 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/gitignore
+666 silly gunzTarPerm extractEntry lib/plugins/create/templates/google-nodejs/serverless.yml
+667 silly gunzTarPerm extractEntry lib/plugins/create/templates/hello-world/handler.js
+668 silly gunzTarPerm extractEntry lib/plugins/create/templates/hello-world/gitignore
+669 silly gunzTarPerm extractEntry lib/plugins/create/templates/hello-world/serverless.yml
+670 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/package.json
+671 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/handler.js
+672 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/gitignore
+673 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-nodejs/serverless.yml
+674 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/package.json
+675 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/gitignore
+676 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/handler.py
+677 silly gunzTarPerm extractEntry lib/plugins/create/templates/kubeless-python/serverless.yml
+678 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/package.json
+679 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/README.md
+680 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/handler.js
+681 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/gitignore
+682 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-nodejs/serverless.yml
+683 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/package.json
+684 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/README.md
+685 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/gitignore
+686 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/handler.php
+687 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-php/serverless.yml
+688 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/package.json
+689 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/README.md
+690 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/gitignore
+691 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/handler.py
+692 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-python/serverless.yml
+693 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/package.json
+694 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/README.md
+695 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/gitignore
+696 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/ping.swift
+697 silly gunzTarPerm extractEntry lib/plugins/create/templates/openwhisk-swift/serverless.yml
+698 silly gunzTarPerm extractEntry lib/plugins/create/templates/plugin/index.js
+699 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/package.json
+700 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/handler.js
+701 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/gitignore
+702 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-nodejs/serverless.yml
+703 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/package.json
+704 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/gitignore
+705 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/handler.py
+706 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-python/serverless.yml
+707 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/package.json
+708 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/gitignore
+709 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/handler.rb
+710 silly gunzTarPerm extractEntry lib/plugins/create/templates/spotinst-ruby/serverless.yml
+711 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/package.json
+712 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/handler.js
+713 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/gitignore
+714 silly gunzTarPerm extractEntry lib/plugins/create/templates/webtasks-nodejs/serverless.yml
+715 silly gunzTarPerm extractEntry lib/plugins/deploy/deploy.js
+716 silly gunzTarPerm extractEntry lib/plugins/deploy/deploy.test.js
+717 silly gunzTarPerm extractEntry lib/plugins/emit/index.js
+718 silly gunzTarPerm extractEntry lib/plugins/emit/index.test.js
+719 silly gunzTarPerm extractEntry lib/plugins/info/info.js
+720 silly gunzTarPerm extractEntry lib/plugins/info/info.test.js
+721 silly gunzTarPerm extractEntry lib/plugins/install/install.js
+722 silly gunzTarPerm extractEntry lib/plugins/install/install.test.js
+723 silly gunzTarPerm extractEntry lib/plugins/invoke/invoke.js
+724 silly gunzTarPerm extractEntry lib/plugins/invoke/invoke.test.js
+725 silly gunzTarPerm extractEntry lib/plugins/lib/validate.js
+726 silly gunzTarPerm extractEntry lib/plugins/lib/validate.test.js
+727 silly gunzTarPerm extractEntry lib/plugins/login/login.js
+728 silly gunzTarPerm extractEntry lib/plugins/login/login.test.js
+729 silly gunzTarPerm extractEntry lib/plugins/login/lib/decryptToken.js
+730 silly gunzTarPerm extractEntry lib/plugins/login/lib/decryptToken.test.js
+731 silly gunzTarPerm extractEntry lib/plugins/login/lib/getCliLoginById.js
+732 silly gunzTarPerm extractEntry lib/plugins/login/lib/getCliLoginById.test.js
+733 silly gunzTarPerm extractEntry lib/plugins/aws/lib/monitorStack.js
+734 silly gunzTarPerm extractEntry lib/plugins/aws/lib/naming.test.js
+735 silly gunzTarPerm extractEntry lib/plugins/aws/lib/normalizeFiles.js
+736 silly gunzTarPerm extractEntry lib/plugins/aws/lib/normalizeFiles.test.js
+737 silly gunzTarPerm extractEntry lib/plugins/aws/lib/setBucketName.js
+738 silly gunzTarPerm extractEntry lib/plugins/aws/lib/naming.js
+739 silly gunzTarPerm extractEntry lib/plugins/aws/lib/updateStack.js
+740 silly gunzTarPerm extractEntry lib/plugins/aws/lib/updateStack.test.js
+741 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validate.js
+742 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validate.test.js
+743 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validateS3BucketName.js
+744 silly gunzTarPerm extractEntry lib/plugins/aws/lib/monitorStack.test.js
+745 silly gunzTarPerm extractEntry lib/plugins/aws/lib/validateS3BucketName.test.js
+746 silly gunzTarPerm extractEntry lib/plugins/aws/lib/setBucketName.test.js
+747 silly gunzTarPerm extractEntry lib/plugins/aws/common/index.js
+748 silly gunzTarPerm extractEntry lib/plugins/aws/common/index.test.js
+749 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/artifacts.js
+750 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/artifacts.test.js
+751 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/cleanupTempDir.js
+752 silly gunzTarPerm extractEntry lib/plugins/aws/common/lib/cleanupTempDir.test.js
+753 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/index.js
+754 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/index.test.js
+755 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/checkForChanges.js
+756 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/cleanupS3Bucket.js
+757 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/cleanupS3Bucket.test.js
+758 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/createStack.js
+759 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/createStack.test.js
+760 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/checkForChanges.test.js
+761 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/extendedValidate.test.js
+762 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/uploadArtifacts.js
+763 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/uploadArtifacts.test.js
+764 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/validateTemplate.js
+765 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/validateTemplate.test.js
+766 silly gunzTarPerm extractEntry lib/plugins/aws/deploy/lib/extendedValidate.js
+767 silly gunzTarPerm extractEntry lib/plugins/aws/deployFunction/index.js
+768 silly gunzTarPerm extractEntry lib/plugins/aws/deployFunction/index.test.js
+769 silly gunzTarPerm extractEntry lib/plugins/aws/deployList/index.js
+770 silly gunzTarPerm extractEntry lib/plugins/aws/deployList/index.test.js
+771 silly gunzTarPerm extractEntry lib/plugins/aws/info/display.js
+772 silly gunzTarPerm extractEntry lib/plugins/aws/info/display.test.js
+773 silly gunzTarPerm extractEntry lib/plugins/aws/info/getApiKeyValues.js
+774 silly gunzTarPerm extractEntry lib/plugins/aws/info/getApiKeyValues.test.js
+775 silly gunzTarPerm extractEntry lib/plugins/aws/info/getStackInfo.js
+776 silly gunzTarPerm extractEntry lib/plugins/aws/info/getStackInfo.test.js
+777 silly gunzTarPerm extractEntry lib/plugins/aws/info/index.js
+778 silly gunzTarPerm extractEntry lib/plugins/aws/info/index.test.js
+779 silly gunzTarPerm extractEntry lib/plugins/aws/invoke/index.js
+780 silly gunzTarPerm extractEntry lib/plugins/aws/invoke/index.test.js
+781 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/.npmignore
+782 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/index.js
+783 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/index.test.js
+784 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/handlerWithError.js
+785 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/handlerWithSuccess.js
+786 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/__init__.py
+787 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/fixture/handler.py
+788 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/invoke.py
+789 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/MANIFEST.mf
+790 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/pom.xml
+791 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/src/main/java/com/serverless/Context.java
+792 silly gunzTarPerm extractEntry lib/plugins/aws/invokeLocal/java/src/main/java/com/serverless/InvokeBridge.java
+793 silly gunzTarPerm extractEntry lib/plugins/aws/configCredentials/awsConfigCredentials.js
+794 silly gunzTarPerm extractEntry lib/plugins/aws/configCredentials/awsConfigCredentials.test.js
+795 silly gunzTarPerm extractEntry lib/plugins/aws/logs/index.js
+796 silly gunzTarPerm extractEntry lib/plugins/aws/logs/index.test.js
+797 silly gunzTarPerm extractEntry lib/plugins/aws/metrics/awsMetrics.js
+798 silly gunzTarPerm extractEntry lib/plugins/aws/metrics/awsMetrics.test.js
+799 silly gunzTarPerm extractEntry lib/plugins/aws/package/index.js
+800 silly gunzTarPerm extractEntry lib/plugins/aws/package/index.test.js
+801 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cognitoUserPool/index.js
+802 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cognitoUserPool/index.test.js
+803 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSkill/index.js
+804 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSkill/index.test.js
+805 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/index.js
+806 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/index.test.js
+807 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/apiKeys.js
+808 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/deployment.test.js
+809 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/disassociateUsagePlan.js
+810 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/disassociateUsagePlan.test.js
+811 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/validate.js
+812 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/deployment.js
+813 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/permissions.test.js
+814 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/resources.js
+815 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/resources.test.js
+816 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/restApi.js
+817 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/restApi.test.js
+818 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/cors.test.js
+819 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlan.js
+820 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/cors.js
+821 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlan.test.js
+822 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/authorizers.test.js
+823 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlanKeys.js
+824 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/authorizers.js
+825 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/usagePlanKeys.test.js
+826 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/apiKeys.test.js
+827 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/validate.test.js
+828 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/permissions.js
+829 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/authorization.js
+830 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/index.js
+831 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/index.test.js
+832 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/integration.js
+833 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/apiGateway/lib/method/responses.js
+834 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchEvent/index.js
+835 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchEvent/index.test.js
+836 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchLog/index.js
+837 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/cloudWatchLog/index.test.js
+838 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSmartHome/index.js
+839 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/alexaSmartHome/index.test.js
+840 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/iot/index.js
+841 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/iot/index.test.js
+842 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/s3/index.js
+843 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/s3/index.test.js
+844 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/schedule/index.js
+845 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/schedule/index.test.js
+846 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/sns/index.js
+847 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/sns/index.test.js
+848 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/stream/index.js
+849 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/events/stream/index.test.js
+850 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/functions/index.js
+851 silly gunzTarPerm extractEntry lib/plugins/aws/package/compile/functions/index.test.js
+852 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveServiceState.test.js
+853 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateCoreTemplate.js
+854 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateCoreTemplate.test.js
+855 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveServiceState.js
+856 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateArtifactDirectoryName.test.js
+857 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/generateArtifactDirectoryName.js
+858 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeIamTemplates.js
+859 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeIamTemplates.test.js
+860 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveCompiledTemplate.js
+861 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/saveCompiledTemplate.test.js
+862 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeCustomProviderResources.js
+863 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/mergeCustomProviderResources.test.js
+864 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/iam-role-lambda-execution-template.json
+865 silly gunzTarPerm extractEntry lib/plugins/aws/package/lib/core-cloudformation-template.json
+866 silly gunzTarPerm extractEntry lib/plugins/aws/provider/awsProvider.js
+867 silly gunzTarPerm extractEntry lib/plugins/aws/provider/awsProvider.test.js
+868 silly gunzTarPerm extractEntry lib/plugins/aws/remove/index.js
+869 silly gunzTarPerm extractEntry lib/plugins/aws/remove/index.test.js
+870 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/bucket.js
+871 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/bucket.test.js
+872 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/stack.js
+873 silly gunzTarPerm extractEntry lib/plugins/aws/remove/lib/stack.test.js
+874 silly gunzTarPerm extractEntry lib/plugins/aws/rollback/index.js
+875 silly gunzTarPerm extractEntry lib/plugins/aws/rollback/index.test.js
+876 silly gunzTarPerm extractEntry lib/plugins/aws/rollbackFunction/index.js
+877 silly gunzTarPerm extractEntry lib/plugins/aws/rollbackFunction/index.test.js
+878 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findAndGroupDeployments.js
+879 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findAndGroupDeployments.test.js
+880 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findReferences.js
+881 silly gunzTarPerm extractEntry lib/plugins/aws/utils/findReferences.test.js
+882 silly gunzTarPerm extractEntry lib/plugins/aws/utils/formatLambdaLogEvent.js
+883 silly gunzTarPerm extractEntry lib/plugins/aws/utils/formatLambdaLogEvent.test.js
+884 silly gunzTarPerm extractEntry lib/plugins/aws/utils/getS3ObjectsFromStacks.js
+885 silly gunzTarPerm extractEntry lib/plugins/aws/utils/getS3ObjectsFromStacks.test.js
+886 silly gunzTarPerm extractEntry lib/plugins/logs/logs.js
+887 silly gunzTarPerm extractEntry lib/plugins/logs/logs.test.js
+888 silly gunzTarPerm extractEntry lib/plugins/metrics/metrics.js
+889 silly gunzTarPerm extractEntry lib/plugins/metrics/metrics.test.js
+890 silly gunzTarPerm extractEntry lib/plugins/package/package.js
+891 silly gunzTarPerm extractEntry lib/plugins/package/package.test.js
+892 silly gunzTarPerm extractEntry lib/plugins/package/lib/packageService.js
+893 silly gunzTarPerm extractEntry lib/plugins/package/lib/packageService.test.js
+894 silly gunzTarPerm extractEntry lib/plugins/package/lib/zipService.js
+895 silly gunzTarPerm extractEntry lib/plugins/package/lib/zipService.test.js
+896 silly gunzTarPerm extractEntry lib/plugins/platform/platform.js
+897 silly gunzTarPerm extractEntry lib/plugins/platform/platform.test.js
+898 silly gunzTarPerm extractEntry lib/plugins/plugin/plugin.js
+899 silly gunzTarPerm extractEntry lib/plugins/plugin/plugin.test.js
+900 silly gunzTarPerm extractEntry lib/plugins/plugin/install/install.js
+901 silly gunzTarPerm extractEntry lib/plugins/plugin/install/install.test.js
+902 silly gunzTarPerm extractEntry lib/plugins/plugin/lib/utils.js
+903 silly gunzTarPerm extractEntry lib/plugins/plugin/lib/utils.test.js
+904 silly gunzTarPerm extractEntry lib/plugins/plugin/list/list.js
+905 silly gunzTarPerm extractEntry lib/plugins/plugin/list/list.test.js
+906 silly gunzTarPerm extractEntry lib/plugins/plugin/search/search.js
+907 silly gunzTarPerm extractEntry lib/plugins/plugin/search/search.test.js
+908 silly gunzTarPerm extractEntry lib/plugins/plugin/uninstall/uninstall.js
+909 silly gunzTarPerm extractEntry lib/plugins/plugin/uninstall/uninstall.test.js
+910 silly gunzTarPerm extractEntry lib/plugins/print/print.js
+911 silly gunzTarPerm extractEntry lib/plugins/print/print.test.js
+912 silly gunzTarPerm extractEntry lib/plugins/remove/remove.js
+913 silly gunzTarPerm extractEntry lib/plugins/remove/remove.test.js
+914 silly gunzTarPerm extractEntry lib/plugins/rollback/index.js
+915 silly gunzTarPerm extractEntry lib/plugins/rollback/index.test.js
+916 silly gunzTarPerm extractEntry lib/plugins/run/index.js
+917 silly gunzTarPerm extractEntry lib/plugins/run/utils/deployFunctionToLocalEmulator.js
+918 silly gunzTarPerm extractEntry lib/plugins/run/utils/getLocalRootUrl.js
+919 silly gunzTarPerm extractEntry lib/plugins/run/utils/getTmpDirPath.js
+920 silly gunzTarPerm extractEntry lib/plugins/run/utils/installEventGateway.js
+921 silly gunzTarPerm extractEntry lib/plugins/run/utils/getLocalEmulatorFunctionConfig.js
+922 silly gunzTarPerm extractEntry lib/plugins/run/utils/localEmulatorInstalled.js
+923 silly gunzTarPerm extractEntry lib/plugins/run/utils/localEmulatorRunning.js
+924 silly gunzTarPerm extractEntry lib/plugins/run/utils/log.js
+925 silly gunzTarPerm extractEntry lib/plugins/run/utils/logEventGateway.js
+926 silly gunzTarPerm extractEntry lib/plugins/run/utils/logEventGateway.test.js
+927 silly gunzTarPerm extractEntry lib/plugins/run/utils/getFunctionToRegister.js
+928 silly gunzTarPerm extractEntry lib/plugins/run/utils/logLocalEmulator.js
+929 silly gunzTarPerm extractEntry lib/plugins/run/utils/getConfigureConfig.js
+930 silly gunzTarPerm extractEntry lib/plugins/run/utils/logServerless.js
+931 silly gunzTarPerm extractEntry lib/plugins/run/utils/eventGatewayRunning.js
+932 silly gunzTarPerm extractEntry lib/plugins/run/utils/manageEventGateway.js
+933 silly gunzTarPerm extractEntry lib/plugins/run/utils/eventGatewayInstalled.js
+934 silly gunzTarPerm extractEntry lib/plugins/run/utils/manageLocalEmulator.js
+935 silly gunzTarPerm extractEntry lib/plugins/run/utils/deployFunctionsToLocalEmulator.js
+936 silly gunzTarPerm extractEntry lib/plugins/run/utils/registerFunctionsToEventGateway.js
+937 silly gunzTarPerm extractEntry lib/plugins/run/utils/installLocalEmulator.js
+938 silly gunzTarPerm extractEntry lib/plugins/slstats/slstats.js
+939 silly gunzTarPerm extractEntry lib/plugins/slstats/slstats.test.js
+940 silly gunzTarPerm extractEntry lib/utils/autocomplete.js
+941 silly gunzTarPerm extractEntry lib/utils/getCacheFile.js
+942 silly gunzTarPerm extractEntry lib/utils/getCacheFilePath.js
+943 silly gunzTarPerm extractEntry lib/utils/getFrameworkId.js
+944 silly gunzTarPerm extractEntry lib/utils/getAuthToken.js
+945 silly gunzTarPerm extractEntry lib/utils/getServerlessConfigFile.test.js
+946 silly gunzTarPerm extractEntry lib/utils/clearConsole.js
+947 silly gunzTarPerm extractEntry lib/utils/getTrackingConfigFileName.js
+948 silly gunzTarPerm extractEntry lib/utils/isTrackingDisabled.js
+949 silly gunzTarPerm extractEntry lib/utils/userStats.js
+950 silly gunzTarPerm extractEntry lib/utils/functionInfoUtils.js
+951 silly gunzTarPerm extractEntry lib/utils/openBrowser.js
+952 silly gunzTarPerm extractEntry lib/utils/userStatsValidation.js
+953 silly gunzTarPerm extractEntry lib/utils/openBrowser.test.js
+954 silly gunzTarPerm extractEntry lib/utils/downloadTemplateFromRepo.test.js
+955 silly gunzTarPerm extractEntry lib/utils/renameService.js
+956 silly gunzTarPerm extractEntry lib/utils/downloadTemplateFromRepo.js
+957 silly gunzTarPerm extractEntry lib/utils/renameService.test.js
+958 silly gunzTarPerm extractEntry lib/utils/createApolloClient.js
+959 silly gunzTarPerm extractEntry lib/utils/segment.js
+960 silly gunzTarPerm extractEntry lib/utils/yamlAstParser.js
+961 silly gunzTarPerm extractEntry lib/utils/sentry.js
+962 silly gunzTarPerm extractEntry lib/utils/getServerlessConfigFile.js
+963 silly gunzTarPerm extractEntry lib/utils/yamlAstParser.test.js
+964 silly gunzTarPerm extractEntry lib/utils/getServerlessDir.js
+965 silly gunzTarPerm extractEntry lib/utils/selectors/selectServicePublish.js
+966 silly gunzTarPerm extractEntry lib/utils/selectors/selectServicePublish.test.js
+967 silly gunzTarPerm extractEntry lib/utils/log/consoleLog.js
+968 silly gunzTarPerm extractEntry lib/utils/log/fileLog.js
+969 silly gunzTarPerm extractEntry lib/utils/log/log.js
+970 silly gunzTarPerm extractEntry lib/utils/log/serverlessLog.js
+971 silly gunzTarPerm extractEntry lib/utils/fs/copyDirContentsSync.js
+972 silly gunzTarPerm extractEntry lib/utils/fs/parse.test.js
+973 silly gunzTarPerm extractEntry lib/utils/fs/readFile.js
+974 silly gunzTarPerm extractEntry lib/utils/fs/readFile.test.js
+975 silly gunzTarPerm extractEntry lib/utils/fs/parse.js
+976 silly gunzTarPerm extractEntry lib/utils/fs/readFileIfExists.test.js
+977 silly gunzTarPerm extractEntry lib/utils/fs/readFileSync.js
+978 silly gunzTarPerm extractEntry lib/utils/fs/readFileSync.test.js
+979 silly gunzTarPerm extractEntry lib/utils/fs/removeFile.js
+980 silly gunzTarPerm extractEntry lib/utils/fs/removeFileSync.js
+981 silly gunzTarPerm extractEntry lib/utils/fs/fse.js
+982 silly gunzTarPerm extractEntry lib/utils/fs/walkDirSync.js
+983 silly gunzTarPerm extractEntry lib/utils/fs/fileExistsSync.test.js
+984 silly gunzTarPerm extractEntry lib/utils/fs/walkDirSync.test.js
+985 silly gunzTarPerm extractEntry lib/utils/fs/fileExistsSync.js
+986 silly gunzTarPerm extractEntry lib/utils/fs/writeFile.js
+987 silly gunzTarPerm extractEntry lib/utils/fs/fileExists.test.js
+988 silly gunzTarPerm extractEntry lib/utils/fs/writeFile.test.js
+989 silly gunzTarPerm extractEntry lib/utils/fs/fileExists.js
+990 silly gunzTarPerm extractEntry lib/utils/fs/writeFileSync.js
+991 silly gunzTarPerm extractEntry lib/utils/fs/dirExistsSync.js
+992 silly gunzTarPerm extractEntry lib/utils/fs/writeFileSync.test.js
+993 silly gunzTarPerm extractEntry lib/utils/fs/readFileIfExists.js
+994 silly gunzTarPerm extractEntry lib/utils/config/config.test.js
+995 silly gunzTarPerm extractEntry lib/utils/config/index.js
+996 silly gunzTarPerm extractEntry lib/utils/config/initialSetup.js
+997 silly gunzTarPerm extractEntry package-lock.json
+998 silly gunzTarPerm extractEntry scripts/postinstall.js
+999 silly gunzTarPerm extractEntry scripts/pre-release.js
+1000 silly gunzTarPerm extractEntry scripts/preuninstall.js
+1001 silly lockFile e8fd4717-er-npm-serverless-1-24-1-package tar:///home/ec2-user/.npm/serverless/1.24.1/package
+1002 silly lockFile e8fd4717-er-npm-serverless-1-24-1-package tar:///home/ec2-user/.npm/serverless/1.24.1/package
+1003 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+1004 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+1005 verbose chmod /home/ec2-user/.npm/serverless/1.24.1/package.tgz 644
+1006 verbose chown /home/ec2-user/.npm/serverless/1.24.1/package.tgz [ 500, 500 ]
+1007 silly lockFile f760f7e2-serverless-serverless-1-24-1-tgz https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz
+1008 silly lockFile f760f7e2-serverless-serverless-1-24-1-tgz https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz
+1009 silly lockFile 265064b4-serverless-1-24-1 serverless@1.24.1
+1010 silly lockFile 265064b4-serverless-1-24-1 serverless@1.24.1
+1011 silly lockFile 277ed4dd-serverless serverless@
+1012 silly lockFile 277ed4dd-serverless serverless@
+1013 silly resolved [ { name: 'serverless',
+1013 silly resolved     version: '1.24.1',
+1013 silly resolved     engines: { node: '>=4.0' },
+1013 silly resolved     preferGlobal: true,
+1013 silly resolved     homepage: 'https://github.com/serverless/serverless#readme',
+1013 silly resolved     description: 'Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more',
+1013 silly resolved     author: { name: 'serverless.com' },
+1013 silly resolved     license: 'MIT',
+1013 silly resolved     repository: { type: 'git', url: 'https://github.com/serverless/serverless' },
+1013 silly resolved     keywords:
+1013 silly resolved      [ 'serverless',
+1013 silly resolved        'serverless framework',
+1013 silly resolved        'serverless applications',
+1013 silly resolved        'serverless modules',
+1013 silly resolved        'api gateway',
+1013 silly resolved        'lambda',
+1013 silly resolved        'aws',
+1013 silly resolved        'aws lambda',
+1013 silly resolved        'amazon',
+1013 silly resolved        'amazon web services',
+1013 silly resolved        'azure',
+1013 silly resolved        'azure functions',
+1013 silly resolved        'google cloud functions',
+1013 silly resolved        'apache open whisk',
+1013 silly resolved        'iot',
+1013 silly resolved        'internet of things',
+1013 silly resolved        'serverless.com' ],
+1013 silly resolved     files:
+1013 silly resolved      [ 'bin',
+1013 silly resolved        'lib',
+1013 silly resolved        'scripts/postinstall.js',
+1013 silly resolved        'scripts/preuninstall.js',
+1013 silly resolved        'scripts/pre-release.js',
+1013 silly resolved        'package.json',
+1013 silly resolved        'package-lock.json',
+1013 silly resolved        'README.md',
+1013 silly resolved        'LICENSE.txt',
+1013 silly resolved        'CHANGELOG.md' ],
+1013 silly resolved     main: 'lib/Serverless.js',
+1013 silly resolved     bin:
+1013 silly resolved      { serverless: './bin/serverless',
+1013 silly resolved        slss: './bin/serverless',
+1013 silly resolved        sls: './bin/serverless' },
+1013 silly resolved     scripts:
+1013 silly resolved      { 'test-bare': 'node bin/test',
+1013 silly resolved        test: 'istanbul cover -x "**/*.test.js" bin/test',
+1013 silly resolved        lint: 'eslint . --cache',
+1013 silly resolved        docs: 'node scripts/generate-readme.js',
+1013 silly resolved        'integration-test-cleanup': 'node scripts/integration-test-cleanup.js',
+1013 silly resolved        'simple-integration-test': 'jest --maxWorkers=5 simple-suite',
+1013 silly resolved        'complex-integration-test': 'jest --maxWorkers=5 integration',
+1013 silly resolved        postinstall: 'node ./scripts/postinstall.js',
+1013 silly resolved        prepublishOnly: './scripts/shrinkwrap && node ./scripts/pre-release.js' },
+1013 silly resolved     jest:
+1013 silly resolved      { testRegex: '(\\.|/)(tests)\\.js$',
+1013 silly resolved        setupTestFrameworkScriptFile: '<rootDir>/tests/setupTests.js' },
+1013 silly resolved     devDependencies:
+1013 silly resolved      { chai: '^3.5.0',
+1013 silly resolved        'chai-as-promised': '^6.0.0',
+1013 silly resolved        coveralls: '^2.12.0',
+1013 silly resolved        eslint: '^3.3.1',
+1013 silly resolved        'eslint-config-airbnb': '^10.0.1',
+1013 silly resolved        'eslint-config-airbnb-base': '^5.0.2',
+1013 silly resolved        'eslint-plugin-import': '^1.13.0',
+1013 silly resolved        'eslint-plugin-jsx-a11y': '^2.1.0',
+1013 silly resolved        'eslint-plugin-react': '^6.1.1',
+1013 silly resolved        istanbul: '^0.4.4',
+1013 silly resolved        'jest-cli': '^18.0.0',
+1013 silly resolved        jszip: '^3.1.2',
+1013 silly resolved        'markdown-magic': '^0.1.15',
+1013 silly resolved        mocha: '^3.0.2',
+1013 silly resolved        'mocha-lcov-reporter': '^1.2.0',
+1013 silly resolved        'mock-require': '^1.3.0',
+1013 silly resolved        proxyquire: '^1.7.10',
+1013 silly resolved        sinon: '^1.17.5',
+1013 silly resolved        'sinon-bluebird': '^3.1.0',
+1013 silly resolved        'sinon-chai': '^2.9.0' },
+1013 silly resolved     dependencies:
+1013 silly resolved      { '@serverless/fdk': '^0.5.1',
+1013 silly resolved        'apollo-client': '^1.9.2',
+1013 silly resolved        archiver: '^1.1.0',
+1013 silly resolved        async: '^1.5.2',
+1013 silly resolved        'aws-sdk': '^2.75.0',
+1013 silly resolved        bluebird: '^3.5.0',
+1013 silly resolved        chalk: '^2.0.0',
+1013 silly resolved        'ci-info': '^1.1.1',
+1013 silly resolved        download: '^5.0.2',
+1013 silly resolved        filesize: '^3.3.0',
+1013 silly resolved        'fs-extra': '^0.26.7',
+1013 silly resolved        'get-stdin': '^5.0.1',
+1013 silly resolved        globby: '^6.1.0',
+1013 silly resolved        'graceful-fs': '^4.1.11',
+1013 silly resolved        graphql: '^0.10.1',
+1013 silly resolved        'graphql-tag': '^2.4.0',
+1013 silly resolved        'https-proxy-agent': '^1.0.0',
+1013 silly resolved        'is-docker': '^1.1.0',
+1013 silly resolved        'js-yaml': '^3.6.1',
+1013 silly resolved        'json-refs': '^2.1.5',
+1013 silly resolved        'jwt-decode': '^2.2.0',
+1013 silly resolved        lodash: '^4.13.1',
+1013 silly resolved        minimist: '^1.2.0',
+1013 silly resolved        moment: '^2.13.0',
+1013 silly resolved        'node-fetch': '^1.6.0',
+1013 silly resolved        'node-forge': '^0.7.1',
+1013 silly resolved        opn: '^5.0.0',
+1013 silly resolved        raven: '^1.2.1',
+1013 silly resolved        rc: '^1.1.6',
+1013 silly resolved        replaceall: '^0.1.6',
+1013 silly resolved        semver: '^5.0.3',
+1013 silly resolved        'semver-regex': '^1.0.0',
+1013 silly resolved        shelljs: '^0.6.0',
+1013 silly resolved        tabtab: '^2.2.2',
+1013 silly resolved        'update-notifier': '^2.2.0',
+1013 silly resolved        uuid: '^2.0.2',
+1013 silly resolved        'write-file-atomic': '^2.1.0',
+1013 silly resolved        'yaml-ast-parser': '0.0.34' },
+1013 silly resolved     readme: '[![Serverless Application Framework AWS Lambda API Gateway](./assets/framework_repo.png)](http://serverless.com)\n\n[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)\n[![Build Status](https://travis-ci.org/serverless/serverless.svg?branch=master)](https://travis-ci.org/serverless/serverless)\n[![npm version](https://badge.fury.io/js/serverless.svg)](https://badge.fury.io/js/serverless)\n[![Coverage Status](https://coveralls.io/repos/github/serverless/serverless/badge.svg?branch=master)](https://coveralls.io/github/serverless/serverless?branch=master)\n[![gitter](https://img.shields.io/gitter/room/serverless/serverless.svg)](https://gitter.im/serverless/serverless)\n[![dependencies](https://img.shields.io/david/serverless/serverless.svg)](https://www.npmjs.com/package/serverless)\n[![license](https://img.shields.io/npm/l/serverless.svg)](https://www.npmjs.com/package/serverless)\n\n[Website](http://www.serverless.com) • [Docs](https://serverless.com/framework/docs/) • [Newsletter](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [We\'re Hiring](https://serverless.com/company/jobs/)\n\n**The Serverless Framework** – Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run.  This lowers the total cost of maintaining your apps, enabling you to build more logic, faster.\n\nThe Framework uses new event-driven compute services, like AWS Lambda, Google CloudFunctions, and more.  It\'s a command-line tool, providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. It\'s also completely extensible via plugins.\n\nServerless is an MIT open-source project, actively maintained by a full-time, venture-backed team.\n\n<a href="https://serverless.com/framework/" target="_blank">Watch the video guide here.</a>\n\n<a href="https://goo.gl/forms/4AvkCrSf5oDOytDv1" target="_blank">Serverless Framework Feedback Survey</a>\n\n## Contents\n\n<img align="right" width="400" src="https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/email/sls-getting-started.gif" />\n\n* [Quick Start](#quick-start)\n* [Examples](https://github.com/serverless/examples)\n* [Services](#services)\n* [Features](#features)\n* [Plugins](#v1-plugins)\n* [Example Projects](#v1-projects)\n* [Contributing](#contributing)\n* [Community](#community)\n* [Consultants](#consultants)\n* [Previous Version 0.5.x](#v.5)\n\n## <a name="quick-start"></a>Quick Start\n\n[Watch the video guide here](https://serverless.com/framework/) or follow the steps below to create and deploy your first serverless microservice in minutes.\n\n1. **Install via npm:**\n  ```bash\n  npm install -g serverless\n  ```\n\n2. **Set-up your [Provider Credentials](./docs/providers/aws/guide/credentials.md)**. [Watch the video on setting up credentials](https://www.youtube.com/watch?v=HSd9uYj2LJA)\n\n3. **Create a Service:**\n\n  You can create a new service or [install existing services](#how-to-install-a-service).\n  ```bash\n  # Create a new Serverless Service/Project\n  serverless create --template aws-nodejs --path my-service\n  # Change into the newly created directory\n  cd my-service\n  ```\n\n4. **Deploy a Service:**\n\n  Use this when you have made changes to your Functions, Events or Resources in `serverless.yml` or you simply want to deploy all changes within your Service at the same time.\n  ```bash\n  serverless deploy -v\n  ```\n\n5. **Deploy the Function:**\n\n  Use this to quickly upload and overwrite your AWS Lambda code on AWS, allowing you to develop faster.\n  ```bash\n  serverless deploy function -f hello\n  ```\n\n6. **Invoke the Function:**\n\n  Invokes an AWS Lambda Function on AWS and returns logs.\n  ```bash\n  serverless invoke -f hello -l\n  ```\n\n7. **Fetch the Function Logs:**\n\n  Open up a separate tab in your console and stream all logs for a specific Function using this command.\n  ```bash\n  serverless logs -f hello -t\n  ```\n\n8. **Remove the Service:**\n\n  Removes all Functions, Events and Resources from your AWS account.\n  ```bash\n  serverless remove\n  ```\n\n### How to Install a Service:\n\nThis is a convenience method to install a pre-made Serverless Service locally by downloading the Github repo and unzipping it.  Services are listed below.\n\n```bash\nserverless install -u https://github.com/your-url-to-the-serverless-service\n```\n\nCheck out the [Serverless Framework Guide](./docs/providers/aws/guide/README.md) for more information.\n\n## <a name="services"></a>Services (V1.0)\n\nThe following are services you can instantly install and use by running `serverless install --url <service-github-url>`\n\n* [serverless-examples](https://github.com/serverless/examples)\n* [CRUD](https://github.com/pmuens/serverless-crud) - CRUD service, [Scala Port](https://github.com/jahangirmohammed/serverless-crud-scala)\n* [CRUD with FaunaDB](https://github.com/faunadb/serverless-crud) - CRUD service using FaunaDB\n* [CRUD with S3](https://github.com/tscanlin/serverless-s3-crud) - CRUD service using S3\n* [GraphQL Boilerplate](https://github.com/serverless/serverless-graphql) - GraphQL application Boilerplate service\n* [Authentication](https://github.com/laardee/serverless-authentication-boilerplate) - Authentication boilerplate service\n* [Mailer](https://github.com/eahefnawy/serverless-mailer) - Service for sending emails\n* [Kinesis streams](https://github.com/pmuens/serverless-kinesis-streams) - Service to showcase Kinesis stream support\n* [DynamoDB streams](https://github.com/pmuens/serverless-dynamodb-streams) - Service to showcase DynamoDB stream support\n* [Landingpage backend](https://github.com/pmuens/serverless-landingpage-backend) - Landingpage backend service to store E-Mail addresses\n* [Facebook Messenger Chatbot](https://github.com/pmuens/serverless-facebook-messenger-bot) - Chatbot for the Facebook Messenger platform\n* [Lambda chaining](https://github.com/pmuens/serverless-lambda-chaining) - Service which chains Lambdas through SNS\n* [Secured API](https://github.com/pmuens/serverless-secured-api) - Service which exposes an API key accessible API\n* [Authorizer](https://github.com/eahefnawy/serverless-authorizer) - Service that uses API Gateway custom authorizers\n* [Thumbnails](https://github.com/eahefnawy/serverless-thumbnails) - Service that takes an image url and returns a 100x100 thumbnail\n* [Boilerplate](https://github.com/eahefnawy/serverless-boilerplate) - Opinionated boilerplate\n* [ES6 + Jest](https://github.com/americansystems/serverless-es6-jest) - ES6 + Jest Boilerplate\n* [PHP](https://github.com/ZeroSharp/serverless-php) - Call a PHP function from your lambda\n* [Ruby](https://github.com/stewartlord/serverless-ruby) - Call a Ruby function from your lambda\n* [Slack App](https://github.com/johnagan/serverless-slack-app) - Slack App Boilerplate with OAuth and Bot actions\n* [Swift](https://github.com/choefele/swift-lambda-app) - Full-featured project template to develop Lambda functions in Swift\n\n**Note**: the `serverless install` command will only work on V1.0 or later.\n\n## <a name="features"></a>Features\n\n* Supports Node.js, Python, Java, Scala, C#, F#, Groovy, Kotlin, PHP & Swift.\n* Manages the lifecycle of your serverless architecture (build, deploy, update, delete).\n* Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).\n* Functions can be grouped ("serverless services") for easy management of code, resources & processes, across large projects & teams.\n* Minimal configuration and scaffolding.\n* Built-in support for multiple stages.\n* Optimized for CI/CD workflows.\n* Loaded with automation, optimization and best practices.\n* 100% Extensible: Extend or modify the Framework and its operations via Plugins.\n* An ecosystem of serverless services and plugins.\n* A passionate and welcoming community!\n\n## <a name="v1-plugins"></a>Plugins (V1.0)\n\nUse these plugins to extend or overwrite the Framework\'s functionality.\n\n[Add a plugin to this list](https://github.com/serverless/community-plugins/blob/master/plugins.json)\n\n<!-- AUTO-GENERATED-CONTENT:START (GENERATE_SERVERLESS_PLUGIN_TABLE)\nThis table is generated from https://github.com/serverless/plugins/blob/master/plugins.json please make additions there\n-->\n| Plugin | Author |\n|:-------|:------:|\n| **[Raml Serverless](https://github.com/andrewcurioso/raml-serverless)** <br/> Serverless plugin to work with RAML API spec documents | [andrewcurioso](http://github.com/andrewcurioso) |\n| **[Serverless Alexa Plugin](https://github.com/rajington/serverless-alexa-plugin)** <br/> Serverless plugin to support Alexa Lambda events | [rajington](http://github.com/rajington) |\n| **[Serverless Api Stage](https://github.com/leftclickben/serverless-api-stage)** <br/> Serverless API Stage plugin, enables stage variables and logging for AWS API Gateway. | [leftclickben](http://github.com/leftclickben) |\n| **[Serverless Apig S3](https://github.com/sdd/serverless-apig-s3)** <br/> Serve static front-end content from S3 via the API Gatewy and deploy client bundle to S3. | [sdd](http://github.com/sdd) |\n| **[Serverless Apigateway Plugin](https://github.com/GFG/serverless-apigateway-plugin)** <br/> Configure the AWS api gateway: Binary support, Headers and Body template mappings | [GFG](http://github.com/GFG) |\n| **[Serverless Apigw Binary](https://github.com/maciejtreder/serverless-apigw-binary)** <br/> Plugin to enable binary support in AWS API Gateway. | [maciejtreder](http://github.com/maciejtreder) |\n| **[Serverless Apigwy Binary](https://github.com/ryanmurakami/serverless-apigwy-binary)** <br/> Serverless plugin for configuring API Gateway to return binary responses | [ryanmurakami](http://github.com/ryanmurakami) |\n| **[Serverless Aws Alias](https://github.com/HyperBrain/serverless-aws-alias)** <br/> This plugin enables use of AWS aliases on Lambda functions. | [HyperBrain](http://github.com/HyperBrain) |\n| **[Serverless Aws Documentation](https://github.com/9cookies/serverless-aws-documentation)** <br/> Serverless plugin to add documentation and models to the serverless generated API Gateway | [9cookies](http://github.com/9cookies) |\n| **[Serverless Build Plugin](https://github.com/nfour/serverless-build-plugin)** <br/> A Node.js focused build plugin for serverless. | [nfour](http://github.com/nfour) |\n| **[Serverless Cf Vars](https://gitlab.com/kabo/serverless-cf-vars)** <br/> Enables use of AWS pseudo functions and Fn::Sub string substitution | [kabo](http://github.com/kabo) |\n| **[Serverless Cljs Plugin](https://github.com/nervous-systems/serverless-cljs-plugin)** <br/> Enables Clojurescript as an implementation language for Lambda handlers | [nervous-systems](http://github.com/nervous-systems) |\n| **[Serverless Coffeescript](https://github.com/duanefields/serverless-coffeescript)** <br/> A Serverless plugin to compile your CoffeeScript into JavaScript at deployment | [duanefields](http://github.com/duanefields) |\n| **[Serverless Command Line Event Args](https://github.com/horike37/serverless-command-line-event-args)** <br/> This module is Serverless Framework plugin. Event JSON passes to your Lambda function in commandline. | [horike37](http://github.com/horike37) |\n| **[Serverless Crypt](https://github.com/marcy-terui/serverless-crypt)** <br/> Securing the secrets on Serverless Framework by AWS KMS encryption. | [marcy-terui](http://github.com/marcy-terui) |\n| **[Serverless Custom Packaging Plugin](https://github.com/hypoport/serverless-custom-packaging-plugin)** <br/> Plugin to package your sourcecode using a custom target path inside the zip. | [hypoport](http://github.com/hypoport) |\n| **[Serverless Dir Config Plugin](https://github.com/economysizegeek/serverless-dir-config-plugin)** <br/> EXPERIMENTAL - Serverless plugin to load function and resource definitions from a directory. | [economysizegeek](http://github.com/economysizegeek) |\n| **[Serverless Domain Manager](https://github.com/amplify-education/serverless-domain-manager)** <br/> Serverless plugin for managing custom domains with API Gateways. | [amplify-education](http://github.com/amplify-education) |\n| **[Serverless Dotenv](https://github.com/Jimdo/serverless-dotenv)** <br/> Fetch environment variables and write it to a .env file | [Jimdo](http://github.com/Jimdo) |\n| **[Serverless Dotnet](https://github.com/fruffin/serverless-dotnet)** <br/> A serverless plugin to run \'dotnet\' commands as part of the deploy process | [fruffin](http://github.com/fruffin) |\n| **[Serverless Dynalite](https://github.com/sdd/serverless-dynalite)** <br/> Run dynalite locally (no JVM, all JS) to simulate DynamoDB. Watch serverless.yml for table config updates. | [sdd](http://github.com/sdd) |\n| **[Serverless Dynamodb Autoscaling](https://github.com/sbstjn/serverless-dynamodb-autoscaling)** <br/> Configure Amazon DynamoDB\'s native Auto Scaling for your table capacities. | [sbstjn](http://github.com/sbstjn) |\n| **[Serverless Dynamodb Local](https://github.com/99xt/serverless-dynamodb-local)** <br/> Serverless Dynamodb Local Plugin - Allows to run dynamodb locally for serverless | [99xt](http://github.com/99xt) |\n| **[Serverless Dynamodb Ttl](https://github.com/Jimdo/serverless-dynamodb-ttl)** <br/> Configure DynamoDB TTL in serverless.yml (until CloudFormation supports this). | [Jimdo](http://github.com/Jimdo) |\n| **[Serverless Enable Api Logs](https://github.com/paulSambolin/serverless-enable-api-logs)** <br/> Enables Coudwatch logging for API Gateway events | [paulSambolin](http://github.com/paulSambolin) |\n| **[Serverless Env Generator](https://github.com/DieProduktMacher/serverless-env-generator)** <br/> Manage environment variables with YAML and load them with dotenv. Supports variable encryption with KMS, multiple stages and custom profiles. | [DieProduktMacher](http://github.com/DieProduktMacher) |\n| **[Serverless Event Constant Inputs](https://github.com/dittto/serverless-event-constant-inputs)** <br/> Allows you to add constant inputs to events in Serverless 1.0. For more info see [constant values in Cloudwatch](https://aws.amazon.com/blogs/compute/simply-serverless-use-constant-values-in-cloudwatch-event-triggered-lambda-functions/) | [dittto](http://github.com/dittto) |\n| **[Serverless Export Env](https://github.com/arabold/serverless-export-env)** <br/> Export environment variables into a .env file with automatic AWS CloudFormation reference resolution. | [arabold](http://github.com/arabold) |\n| **[Serverless Gulp](https://github.com/rhythminme/serverless-gulp)** <br/> A thin task wrapper around @goserverless that allows you to automate build, test and deploy tasks using gulp | [rhythminme](http://github.com/rhythminme) |\n| **[Serverless Hooks Plugin](https://github.com/uswitch/serverless-hooks-plugin)** <br/> Run arbitrary commands on any lifecycle event in serverless | [uswitch](http://github.com/uswitch) |\n| **[Serverless Jest Plugin](https://github.com/SC5/serverless-jest-plugin)** <br/> A Serverless Plugin for the Serverless Framework which adds support for test-driven development using Jest | [SC5](http://github.com/SC5) |\n| **[Serverless Kms Secrets](https://github.com/SC5/serverless-kms-secrets)** <br/> Allows to easily encrypt and decrypt secrets using KMS from the serverless CLI | [SC5](http://github.com/SC5) |\n| **[Serverless Kubeless](https://github.com/serverless/serverless-kubeless)** <br/> Serverless plugin for deploying functions to Kubeless. | [serverless](http://github.com/serverless) |\n| **[Serverless Local Dev Server](https://github.com/DieProduktMacher/serverless-local-dev-server)** <br/> Speeds up development of Alexa Skills, Chatbots and APIs by exposing your functions as local HTTP endpoints and mapping received events. | [DieProduktMacher](http://github.com/DieProduktMacher) |\n| **[Serverless Log Forwarding](https://github.com/amplify-education/serverless-log-forwarding)** <br/> Serverless plugin for forwarding CloudWatch logs to another Lambda function. | [amplify-education](http://github.com/amplify-education) |\n| **[Serverless Mocha Plugin](https://github.com/SC5/serverless-mocha-plugin)** <br/> A Serverless Plugin for the Serverless Framework which adds support for test-driven development using Mocha | [SC5](http://github.com/SC5) |\n| **[Serverless Nested Stack](https://github.com/jagdish-176/serverless-nested-stack)** <br/> A plugin to Workaround for Cloudformation 200 resource limit | [jagdish-176](http://github.com/jagdish-176) |\n| **[Serverless Offline](https://github.com/dherault/serverless-offline)** <br/> Emulate AWS λ and API Gateway locally when developing your Serverless project | [dherault](http://github.com/dherault) |\n| **[Serverless Offline Scheduler](https://github.com/ajmath/serverless-offline-scheduler)** <br/> Runs scheduled functions offline while integrating with serverless-offline | [ajmath](http://github.com/ajmath) |\n| **[Serverless Package Python Functions](https://github.com/ubaniabalogun/serverless-package-python-functions)** <br/> Packaging Python Lambda functions with only the dependencies/requirements they need. | [ubaniabalogun](http://github.com/ubaniabalogun) |\n| **[Serverless Parameters](https://github.com/svdgraaf/serverless-parameters)** <br/> Add parameters to the generated cloudformation templates | [svdgraaf](http://github.com/svdgraaf) |\n| **[Serverless Plugin Aws Alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts)** <br/> A Serverless plugin to easily add CloudWatch alarms to functions | [ACloudGuru](http://github.com/ACloudGuru) |\n| **[Serverless Plugin Aws Resolvers](https://github.com/DopplerLabs/serverless-plugin-aws-resolvers)** <br/> Resolves variables from ESS, RDS, or Kinesis for serverless services | [DopplerLabs](http://github.com/DopplerLabs) |\n| **[Serverless Plugin Bespoken](https://github.com/bespoken/serverless-plugin-bespoken)** <br/> Creates a local server and a proxy so you don\'t have to deploy anytime you want to test your code | [bespoken](http://github.com/bespoken) |\n| **[Serverless Plugin Bind Deployment Id](https://github.com/jacob-meacham/serverless-plugin-bind-deployment-id)** <br/> A Serverless plugin to bind the randomly generated deployment resource to your custom resources | [jacob-meacham](http://github.com/jacob-meacham) |\n| **[Serverless Plugin Browserifier](https://github.com/digitalmaas/serverless-plugin-browserifier)** <br/> Reduce the size and speed up your Node.js based lambda\'s using browserify. | [digitalmaas](http://github.com/digitalmaas) |\n| **[Serverless Plugin Browserify](https://github.com/doapp-ryanp/serverless-plugin-browserify)** <br/> Speed up your node based lambda\'s | [doapp-ryanp](http://github.com/doapp-ryanp) |\n| **[Serverless Plugin Cfauthorizer](https://github.com/SC5/serverless-plugin-cfauthorizer)** <br/> This plugin allows you to define your own API Gateway Authorizers as the Serverless CloudFormation resources and apply them to HTTP endpoints. | [SC5](http://github.com/SC5) |\n| **[Serverless Plugin Cloudwatch Sumologic](https://github.com/ACloudGuru/serverless-plugin-cloudwatch-sumologic)** <br/> Plugin which auto-subscribes a log delivery lambda function to lambda log groups created by serverless | [ACloudGuru](http://github.com/ACloudGuru) |\n| **[Serverless Plugin Common Excludes](https://github.com/dougmoscrop/serverless-plugin-common-excludes)** <br/> Adds commonly excluded files to package.excludes | [dougmoscrop](http://github.com/dougmoscrop) |\n| **[Serverless Plugin Custom Domain](https://github.com/dougmoscrop/serverless-plugin-custom-domain)** <br/> Reliably sets a BasePathMapping to an API Gateway Custom Domain | [dougmoscrop](http://github.com/dougmoscrop) |\n| **[Serverless Plugin Deploy Environment](https://github.com/DopplerLabs/serverless-plugin-deploy-environment)** <br/> Plugin to manage deployment environment across stages | [DopplerLabs](http://github.com/DopplerLabs) |\n| **[Serverless Plugin Diff](https://github.com/nicka/serverless-plugin-diff)** <br/> Compares your local AWS CloudFormation templates against deployed ones. | [nicka](http://github.com/nicka) |\n| **[Serverless Plugin Elastic Beanstalk](https://github.com/rawphp/serverless-plugin-elastic-beanstalk)** <br/> A serverless plugin to deploy applications to AWS ElasticBeanstalk. | [rawphp](http://github.com/rawphp) |\n| **[Serverless Plugin Encode Env Var Objects](https://github.com/yonomi/serverless-plugin-encode-env-var-objects)** <br/> Serverless plugin to encode any environment variable objects. | [yonomi](http://github.com/yonomi) |\n| **[Serverless Plugin External Sns Events](https://github.com/silvermine/serverless-plugin-external-sns-events)** <br/> Add ability for functions to use existing or external SNS topics as an event source | [silvermine](http://github.com/silvermine) |\n| **[Serverless Plugin Git Variables](https://github.com/jacob-meacham/serverless-plugin-git-variables)** <br/> A Serverless plugin to expose git variables (branch name, HEAD description, full commit hash) to your serverless services | [jacob-meacham](http://github.com/jacob-meacham) |\n| **[Serverless Plugin Graphiql](https://github.com/bencooling/serverless-plugin-graphiql)** <br/> A Serverless plugin to run a local http server for graphiql and your graphql handler | [bencooling](http://github.com/bencooling) |\n| **[Serverless Plugin Include Dependencies](https://github.com/dougmoscrop/serverless-plugin-include-dependencies)** <br/> This is a Serverless plugin that should make your deployed functions smaller. | [dougmoscrop](http://github.com/dougmoscrop) |\n| **[Serverless Plugin Iopipe](https://github.com/iopipe/serverless-plugin-iopipe)** <br/> See inside your Lambda functions with high fidelity metrics and monitoring. | [iopipe](http://github.com/iopipe) |\n| **[Serverless Plugin Lambda Dead Letter](https://github.com/gmetzker/serverless-plugin-lambda-dead-letter)** <br/> A Serverless plugin that can configure a lambda with a dead letter queue or topic | [gmetzker](http://github.com/gmetzker) |\n| **[Serverless Plugin Log Subscription](https://github.com/dougmoscrop/serverless-plugin-log-subscription)** <br/> Adds a CloudWatch LogSubscription for functions | [dougmoscrop](http://github.com/dougmoscrop) |\n| **[Serverless Plugin Multiple Responses](https://github.com/silvermine/serverless-plugin-multiple-responses)** <br/> Enable multiple content-types for Response template  | [silvermine](http://github.com/silvermine) |\n| **[Serverless Plugin Offline Kinesis Events](https://github.com/DopplerLabs/serverless-plugin-offline-kinesis-events)** <br/> Plugin that works with serverless-offline to allow offline testing of serverless functions that are triggered by Kinesis events. | [DopplerLabs](http://github.com/DopplerLabs) |\n| **[Serverless Plugin Optimize](https://github.com/FidelLimited/serverless-plugin-optimize)** <br/> Bundle with Browserify, transpile with Babel to ES5 and minify with Uglify your Serverless functions. | [FidelLimited](http://github.com/FidelLimited) |\n| **[Serverless Plugin Package Dotenv File](https://github.com/ACloudGuru/serverless-plugin-package-dotenv-file)** <br/> A Serverless plugin to copy a .env file into the serverless package | [ACloudGuru](http://github.com/ACloudGuru) |\n| **[Serverless Plugin Scripts](https://github.com/mvila/serverless-plugin-scripts)** <br/> Add scripting capabilities to the Serverless Framework | [mvila](http://github.com/mvila) |\n| **[Serverless Plugin Select](https://github.com/FidelLimited/serverless-plugin-select)** <br/> Select which functions are to be deployed based on region and stage. | [FidelLimited](http://github.com/FidelLimited) |\n| **[Serverless Plugin Simulate](https://github.com/gertjvr/serverless-plugin-simulate)** <br/> Simulate AWS Lambda and API Gateway locally using Docker | [gertjvr](http://github.com/gertjvr) |\n| **[Serverless Plugin Split Stacks](https://github.com/dougmoscrop/serverless-plugin-split-stacks)** <br/> Migrate certain resources to nested stacks | [dougmoscrop](http://github.com/dougmoscrop) |\n| **[Serverless Plugin Stack Config](https://github.com/rawphp/serverless-plugin-stack-config)** <br/> A serverless plugin to manage configurations for a stack across micro-services. | [rawphp](http://github.com/rawphp) |\n| **[Serverless Plugin Stack Outputs](https://github.com/svdgraaf/serverless-plugin-stack-outputs)** <br/> Displays stack outputs for your serverless stacks when `sls info` is ran | [svdgraaf](http://github.com/svdgraaf) |\n| **[Serverless Plugin Stage Variables](https://github.com/svdgraaf/serverless-plugin-stage-variables)** <br/> Add stage variables for Serverless 1.x to ApiGateway, so you can use variables in your Lambda\'s | [svdgraaf](http://github.com/svdgraaf) |\n| **[Serverless Plugin Subscription Filter](https://github.com/tsub/serverless-plugin-subscription-filter)** <br/> A serverless plugin to register AWS CloudWatchLogs subscription filter | [tsub](http://github.com/tsub) |\n| **[Serverless Plugin Typescript](https://github.com/graphcool/serverless-plugin-typescript)** <br/> Serverless plugin for zero-config Typescript support. | [graphcool](http://github.com/graphcool) |\n| **[Serverless Plugin Warmup](https://github.com/FidelLimited/serverless-plugin-warmup)** <br/> Keep your lambdas warm during Winter. | [FidelLimited](http://github.com/FidelLimited) |\n| **[Serverless Plugin Webpack](https://github.com/goldwasserexchange/serverless-plugin-webpack)** <br/> A serverless plugin to automatically bundle your functions individually with webpack | [goldwasserexchange](http://github.com/goldwasserexchange) |\n| **[Serverless Plugin Write Env Vars](https://github.com/silvermine/serverless-plugin-write-env-vars)** <br/> Write environment variables out to a file that is compatible with dotenv | [silvermine](http://github.com/silvermine) |\n| **[Serverless Prune Plugin](https://github.com/claygregory/serverless-prune-plugin)** <br/> Deletes old versions of functions from AWS, preserving recent and aliased versions | [claygregory](http://github.com/claygregory) |\n| **[Serverless Pseudo Parameters](https://github.com/svdgraaf/serverless-pseudo-parameters)** <br/> Use ${AWS::AccountId} and other cloudformation pseudo parameters in your serverless.yml values | [svdgraaf](http://github.com/svdgraaf) |\n| **[Serverless Python Individually](https://github.com/cfchou/serverless-python-individually)** <br/> A serverless framework plugin to install multiple lambda functions written in python | [cfchou](http://github.com/cfchou) |\n| **[Serverless Python Requirements](https://github.com/UnitedIncome/serverless-python-requirements)** <br/> Serverless plugin to bundle Python packages | [UnitedIncome](http://github.com/UnitedIncome) |\n| **[Serverless Resources Env](https://github.com/rurri/serverless-resources-env)** <br/> After Deploy, this plugin fetches cloudformation resource identifiers and sets them on AWS lambdas, and creates local .<state>-env file | [rurri](http://github.com/rurri) |\n| **[Serverless Run Function Plugin](https://github.com/lithin/serverless-run-function-plugin)** <br/> Run serverless function locally | [lithin](http://github.com/lithin) |\n| **[Serverless S3 Remover](https://github.com/sinofseven/serverless-s3-remover)** <br/> A serverless plugin to make s3 buckets empty before deleting cloudformation stack when ```sls remove``` | [sinofseven](http://github.com/sinofseven) |\n| **[Serverless S3 Sync](https://github.com/k1LoW/serverless-s3-sync)** <br/> A plugin to sync local directories and S3 prefixes for Serverless Framework, | [k1LoW](http://github.com/k1LoW) |\n| **[Serverless S3bucket Sync](https://github.com/sbstjn/serverless-s3bucket-sync)** <br/> Sync a local folder with a S3 bucket after sls deploy | [sbstjn](http://github.com/sbstjn) |\n| **[Serverless Sam](https://github.com/SAPessi/serverless-sam)** <br/> Exports an AWS SAM template for a service created with the Serverless Framework. | [SAPessi](http://github.com/SAPessi) |\n| **[Serverless Scriptable Plugin](https://github.com/weixu365/serverless-scriptable-plugin)** <br/> Customize Serverless behavior without writing a plugin. | [weixu365](http://github.com/weixu365) |\n| **[Serverless Sentry](https://github.com/arabold/serverless-sentry-plugin)** <br/> Automatic monitoring of memory usage, execution timeouts and forwarding of Lambda errors to Sentry (https://sentry.io). | [arabold](http://github.com/arabold) |\n| **[Serverless Shell](https://github.com/UnitedIncome/serverless-shell)** <br/> Drop to a runtime shell with all the environment variables set that you\'d have in lambda. | [UnitedIncome](http://github.com/UnitedIncome) |\n| **[Serverless Sqs Alarms Plugin](https://github.com/sbstjn/serverless-sqs-alarms-plugin)** <br/> Wrapper to setup CloudWatch Alarms on SQS queue length | [sbstjn](http://github.com/sbstjn) |\n| **[Serverless Sqs Fifo](https://github.com/vortarian/serverless-sqs-fifo)** <br/> A serverless plugin to handle creation of sqs fifo queue\'s in aws (stop-gap) | [vortarian](http://github.com/vortarian) |\n| **[Serverless Stack Output](https://github.com/sbstjn/serverless-stack-output)** <br/> Store output from your AWS CloudFormation Stack in JSON/YAML/TOML files, or to pass it to a JavaScript function for further processing. | [sbstjn](http://github.com/sbstjn) |\n| **[Serverless Step Functions](https://github.com/horike37/serverless-step-functions)** <br/> AWS Step Functions with Serverless Framework. | [horike37](http://github.com/horike37) |\n| **[Serverless Subscription Filter](https://github.com/blackevil245/serverless-subscription-filter)** <br/> Serverless plugin to register subscription filter for Lambda logs. Register and pipe the logs of one lambda to another to process. | [blackevil245](http://github.com/blackevil245) |\n| **[Serverless Vpc Discovery](https://github.com/amplify-education/serverless-vpc-discovery)** <br/> Serverless plugin for discovering VPC / Subnet / Security Group configuration by name. | [amplify-education](http://github.com/amplify-education) |\n| **[Serverless Webpack](https://github.com/serverless-heaven/serverless-webpack)** <br/> Serverless plugin to bundle your lambdas with Webpack | [serverless-heaven](http://github.com/serverless-heaven) |\n| **[Serverless Wsgi](https://github.com/logandk/serverless-wsgi)** <br/> Serverless plugin to deploy WSGI applications (Flask/Django/Pyramid etc.) and bundle Python packages | [logandk](http://github.com/logandk) |\n<!-- AUTO-GENERATED-CONTENT:END This table is generated from https://github.com/serverless/plugins/blob/master/plugins.json please make additions there -->\n\n## <a name="v1-projects"></a>Example Projects (V1.0)\n\n<!-- AUTO-GENERATED-CONTENT:START (GENERATE_SERVERLESS_EXAMPLES_TABLE)\nThis table is generated from https://github.com/serverless/examples/blob/master/community-examples.json please make additions there\n-->\n| Project Name | Author |\n|:-------------|:------:|\n| **[Jwtauthorizr](https://github.com/serverlessbuch/jwtAuthorizr)** <br/> Custom JWT Authorizer Lambda function for Amazon API Gateway with Bearer JWT | [serverlessbuch](http://github.com/serverlessbuch) |\n| **[Serverless Graphql Api](https://github.com/boazdejong/serverless-graphql-api)** <br/> Serverless GraphQL API using Lambda and DynamoDB | [boazdejong](http://github.com/boazdejong) |\n| **[Serverless Screenshot](https://github.com/svdgraaf/serverless-screenshot)** <br/> Serverless Screenshot Service using PhantomJS | [svdgraaf](http://github.com/svdgraaf) |\n| **[Serverless Postgraphql](https://github.com/rentrop/serverless-postgraphql)** <br/> GraphQL endpoint for PostgreSQL using postgraphql | [rentrop](http://github.com/rentrop) |\n| **[Serverless Messenger Boilerplate](https://github.com/SC5/serverless-messenger-boilerplate)** <br/> Serverless messenger bot boilerplate | [SC5](http://github.com/SC5) |\n| **[Serverless Npm Registry](https://github.com/craftship/yith)** <br/> Serverless private npm registry, proxy and cache. | [craftship](http://github.com/craftship) |\n| **[Serverless Pokego](https://github.com/jch254/pokego-serverless)** <br/> Serverless-powered API to fetch nearby Pokemon Go data | [jch254](http://github.com/jch254) |\n| **[Serverless Weekly2pocket App](https://github.com/s0enke/weekly2pocket)** <br/> Serverless-powered API for sending posts to pocket app | [s0enke](http://github.com/s0enke) |\n| **[Serverless Facebook Quotebot](https://github.com/pmuens/quotebot)** <br/> 100% Serverless Facebook messenger chatbot which will respond with inspiring quotes | [pmuens](http://github.com/pmuens) |\n| **[Serverless Slack Trevorbot](https://github.com/conveyal/trevorbot)** <br/> Slack bot for info on where in the world is Trevor Gerhardt? | [conveyal](http://github.com/conveyal) |\n| **[Serverless Garden Aid](https://github.com/garden-aid/web-bff)** <br/> IoT Garden Aid Backend | [garden-aid](http://github.com/garden-aid) |\n| **[Serverless React Boilerplate](https://github.com/99xt/serverless-react-boilerplate)** <br/> A serverless react boilerplate for offline development | [99xt](http://github.com/99xt) |\n| **[Serverless Delivery Framework](https://github.com/99xt/serverless-delivery-framework)** <br/> This is a boilerplate for version release pipeline with serverless framework | [99xt](http://github.com/99xt) |\n| **[Serverless Mailgun Slack](https://github.com/Marcus-L/serverless-mailgun-slack)** <br/> A Serverless function for posting to a Slack Webhook in response to a Mailgun route | [Marcus-L](http://github.com/Marcus-L) |\n| **[Pfs Email Serverless](https://github.com/SCPR/pfs-email-serverless)** <br/> This is a lambda function created by the serverless framework. It searches through members in our mongodb who have not been sent emails and sends them an email with their custom token to unlock the pledge free stream. It then marks those members off as already receiving the email. | [SCPR](http://github.com/SCPR) |\n| **[Plaid Cashburndown Service](https://github.com/cplee/cashburndown-service)** <br/> Service for calculating cash burndown with plaid. Frontend code can be found here: https://github.com/cplee/cashburndown-site | [cplee](http://github.com/cplee) |\n| **[Cordis Serverless](https://github.com/marzeelabs/cordis-serverless)** <br/> A serverless API for EU Cordis data | [marzeelabs](http://github.com/marzeelabs) |\n| **[Serverless Newsletter Signup](https://github.com/ivanderbu2/serverless-newsletter-signup)** <br/> Saves user details into DynamoDB table. Required values are email, first_name and last_name. | [ivanderbu2](http://github.com/ivanderbu2) |\n| **[Serverless Slack Cron](https://github.com/ivanderbu2/serverless-slack-cron)** <br/> Lambda function which sends messages to Slack channel in regular intervals via cron trigger. | [ivanderbu2](http://github.com/ivanderbu2) |\n| **[Giphy Bot](https://github.com/tywong/lambda-workshop-2016/tree/master/giphy-bot)** <br/> giphy-bot for Facebook chat | [tywong](http://github.com/tywong) |\n| **[Jwt Lambda Python](https://github.com/mikaelmork/jwt-auth.serverless)** <br/> Minimal proof-of-concept implementation of JWT with Serverless / AWS Lambda | [mikaelmork](http://github.com/mikaelmork) |\n| **[Sls Access Counter](https://github.com/takahashim/sls-access-counter)** <br/> Site visitor counter | [takahashim](http://github.com/takahashim) |\n| **[Sls Form Mail](https://github.com/takahashim/sls-form-mail)** <br/> Send SNS email from form data | [takahashim](http://github.com/takahashim) |\n| **[Serverless Python Sample](https://github.com/bennybauer/serverless-python-sample)** <br/> A simple serverless python sample with REST API endpoints and dependencies | [bennybauer](http://github.com/bennybauer) |\n| **[Serverless Msg Gateway](https://github.com/yonahforst/msg-gateway)** <br/> A messaging aggregator for kik, skype, twilio, telegram, & messenger. Send and receive messages in a standard format. | [yonahforst](http://github.com/yonahforst) |\n| **[Serverless Aws Rekognition Finpics](https://github.com/rgfindl/finpics)** <br/> Use AWS Rekognition to provide a faces search of finpics.com | [rgfindl](http://github.com/rgfindl) |\n| **[Serverless Slack Emojibot](https://github.com/markhobson/emojibot)** <br/> Serverless slack bot for emoji | [markhobson](http://github.com/markhobson) |\n| **[Keboola Developer Portal](https://github.com/keboola/developer-portal)** <br/> Keboola developer portal built with Serverless | [keboola](http://github.com/keboola) |\n| **[Serverless Cloudwatch Rds Custom Metrics](https://github.com/AndrewFarley/serverless-cloudwatch-rds-custom-metrics)** <br/> A NodeJS-based MySQL RDS Data Collection script to push Custom Metrics to Cloudwatch with Serverless | [AndrewFarley](http://github.com/AndrewFarley) |\n| **[Jrestless Examples](https://github.com/bbilger/jrestless-examples)** <br/> [JRestless](https://github.com/bbilger/jrestless) (Java / JAX-RS) examples for [API Gateway Functions](https://github.com/bbilger/jrestless-examples/tree/master/aws/gateway) ([plain JAX-RS](https://github.com/bbilger/jrestless-examples/blob/master/aws/gateway/aws-gateway-showcase), [Spring](https://github.com/bbilger/jrestless-examples/blob/master/aws/gateway/aws-gateway-spring), [binary data requests/responses](https://github.com/bbilger/jrestless-examples/blob/master/aws/gateway/aws-gateway-binary), [custom authorizers](https://github.com/bbilger/jrestless-examples/blob/master/aws/gateway/aws-gateway-security-custom-authorizer) and [Cognito User Pool authorizers](https://github.com/bbilger/jrestless-examples/blob/master/aws/gateway/aws-gateway-security-cognito-authorizer)), [SNS Functions](https://github.com/bbilger/jrestless-examples/blob/master/aws/sns/aws-sns-usage-example) (asynchronous communication between functions) and [Service Functions](https://github.com/bbilger/jrestless-examples/blob/master/aws/service/aws-service-usage-example) (synchronous HTTP-like communication between functions - transparent through Feign) | [bbilger](http://github.com/bbilger) |\n| **[Sc5 Serverless Boilerplate](https://github.com/SC5/sc5-serverless-boilerplate)** <br/> A boilerplate that contains setup for test-driven development | [SC5](http://github.com/SC5) |\n| **[Serverless Blog To Podcast](https://github.com/SC5/serverless-blog-to-podcast)** <br/> Service that reads RSS feed and converts the entries to a podcast feed and audio files using Amazon Polly | [SC5](http://github.com/SC5) |\n| **[Offset Trump](https://github.com/FLGMwt/offset-trump)** <br/> Single page app using Serverless (C# runtime) and S3 site hosting. Pledge to do a good thing for the next four years to offset the potential negative effects of the US Presidency | [FLGMwt](http://github.com/FLGMwt) |\n| **[Serverless Url Shortener](https://github.com/aletheia/serverless-url-shortener)** <br/> A simple url-shortener, using Serverless framework | [aletheia](http://github.com/aletheia) |\n| **[Serverless Html Pdf](https://github.com/calvintychan/serverless-html-pdf)** <br/> Service that convert HTML to PDF using PhantomJS\'s rasterize example. | [calvintychan](http://github.com/calvintychan) |\n| **[Serverless Examples Cached Rds Ws](https://github.com/mugglmenzel/serverless-examples-cached-rds-ws)** <br/> A serverless framework example project that uses API Gateway, ElastiCache, and RDS PostgreSQL. | [mugglmenzel](http://github.com/mugglmenzel) |\n| **[Bittman](https://github.com/rhlsthrm/bittman)** <br/> A serverless project that follows a stock trading algorithm and uses scheduled functions to save data to DynamoDB and send emails through Mailgun. | [rhlsthrm](http://github.com/rhlsthrm) |\n| **[Adoptable Pet Bot](https://github.com/lynnaloo/adoptable-pet-bot)** <br/> Tweets adoptable pets using Serverless (Node.js) and AWS Lambda | [lynnaloo](http://github.com/lynnaloo) |\n| **[Owntracks Serverless](https://github.com/dschep/owntracks-serverless)** <br/> A serverless implementation of the OwnTracks HTTP backend | [dschep](http://github.com/dschep) |\n| **[Serverless Modern Koa](https://github.com/barczaG/serverless-modern-koa)** <br/> Serverless modern koa starter kit | [barczaG](http://github.com/barczaG) |\n| **[Serverless Reactjs Universal Rendering Boilerplate](https://github.com/TylorShin/react-universal-in-serverless)** <br/> ReactJS web app Starter kit does universal (isomorphic) rendering with Serverless | [TylorShin](http://github.com/TylorShin) |\n| **[Open Bot](https://github.com/open-bot/open-bot)** <br/> An unoptionated Github bot driven by a configuration file in the repository | [open-bot](http://github.com/open-bot) |\n| **[Aws Ses Serverless Example](https://github.com/lakshmantgld/aws-ses-serverless-example)** <br/> AWS SES example in NodeJS using lambda | [lakshmantgld](http://github.com/lakshmantgld) |\n| **[Aws Api Gateway Serverless Project Written In Go](https://github.com/yunspace/serverless-golang)** <br/> A serverless project that contains an API Gateway endpoint powered by a Lambda function written in golang and built using [eawsy/aws-lambda-go-shim](https://github.com/eawsy/aws-lambda-go-shim). | [yunspace](http://github.com/yunspace) |\n| **[Video Preview And Analysis Service](https://github.com/laardee/video-preview-and-analysis-service)** <br/> An event-driven service that generates labels using Amazon Rekognition and creates preview GIF animation from a video file. | [laardee](http://github.com/laardee) |\n| **[Serverless Es6/7 Crud Api](https://github.com/AnomalyInnovations/serverless-stack-demo-api)** <br/> [Serverless Stack](http://serverless-stack.com) examples of backend CRUD APIs (DynamoDB + Lambda + API Gateway + Cognito User Pool authorizer) for [React.js single-page app](http://demo.serverless-stack.com) | [AnomalyInnovations](http://github.com/AnomalyInnovations) |\n| **[Sqs Worker With Aws Lambda And Cloudwatch Alarms](https://github.com/sbstjn/sqs-worker-serverless)** <br/> Process messages stored in SQS with an [auto-scaled AWS Lambda worker](https://sbstjn.com/serverless-sqs-worker-with-aws-lambda.html) function. | [sbstjn](http://github.com/sbstjn) |\n| **[Aws Lambda Power Tuning (Powered By Step Functions)](https://github.com/alexcasalboni/aws-lambda-power-tuning)** <br/> Build a [Step Functions](https://aws.amazon.com/step-functions/) state machine to optimize your AWS Lambda Function memory/power configuration. | [alexcasalboni](http://github.com/alexcasalboni) |\n| **[Amazon Kinesis Streams Fan Out Via Kinesis Analytics](https://github.com/alexcasalboni/kinesis-streams-fan-out-kinesis-analytics)** <br/> Use [Amazon Kinesis Analytics](https://aws.amazon.com/kinesis/analytics/) to fan-out your Kinesis Streams and avoid read throttling. | [alexcasalboni](http://github.com/alexcasalboni) |\n| **[Grants Api Serverless](https://github.com/comicrelief/grants-api-serverless)** <br/> ES6 API to consume data from an external API, ingest into Elasticsearch and return a queryable endpoint on top of Elasticsearch | [comicrelief](http://github.com/comicrelief) |\n| **[Honeylambda](https://github.com/0x4D31/honeyLambda)** <br/> a simple, serverless application designed to create and monitor URL {honey}tokens, on top of AWS Lambda and Amazon API Gateway | [0x4D31](http://github.com/0x4D31) |\n| **[Stack Overflow Monitor](https://github.com/picsoung/stackoverflowmonitor)** <br/> Monitor Stack Overflow questions and post them in a Slack channel | [picsoung](http://github.com/picsoung) |\n| **[React & Stripe Serverless Ecommerce](https://github.com/patrick-michelberger/serverless-shop)** <br/> Serverless E-Commerce App with AWS Lambda, Stripe and React | [patrick-michelberger](http://github.com/patrick-michelberger) |\n| **[Serverless + Medium Text To Speech](https://github.com/RafalWilinski/serverless-medium-text-to-speech)** <br/> Serverless-based, text-to-speech service for Medium articles | [RafalWilinski](http://github.com/RafalWilinski) |\n<!-- AUTO-GENERATED-CONTENT:END This table is generated from https://github.com/serverless/examples/blob/master/community-examples.json please make additions there -->\n\n## <a name="contributing"></a>Contributing\nWe love our contributors! Please read our [Contributing Document](CONTRIBUTING.md) to learn how you can start working on the Framework yourself.\n\nCheck out our [help-wanted](https://github.com/serverless/serverless/labels/status/help-wanted) or [easy-pick](https://github.com/serverless/serverless/labels/status/easy-pick) labels to find issues we want to move forward on with your help.\n\n## <a name="community"></a>Community\n\n* [Email Updates](http://eepurl.com/b8dv4P)\n* [Serverless Forum](http://forum.serverless.com)\n* [Gitter Chatroom](https://gitter.im/serverless/serverless)\n* [Serverless Meetups](http://www.meetup.com/serverless/)\n* [Stackoverflow](http://stackoverflow.com/questions/tagged/serverless-framework)\n* [Facebook](https://www.facebook.com/serverless)\n* [Twitter](https://twitter.com/goserverless)\n* [Contact Us](mailto:hello@serverless.com)\n\n## <a name="consultants"></a>Consultants\nThese consultants use the Serverless Framework and can help you build your serverless projects.\n* [Trek10](https://www.trek10.com/)\n* [Parallax](https://parall.ax/) – they also built the [David Guetta Campaign](https://serverlesscode.com/post/david-guetta-online-recording-with-lambda/)\n* [SC5 Online](https://sc5.io)\n* [Carrot Creative](https://carrot.is)\n* [microapps](http://microapps.com)\n* [Apiwise](http://www.apiwise.nl)\n* [Useful IO](http://useful.io) - and [Hail Messaging](http://hail.io)\n* [WhaleTech](https://whaletech.co/)\n* [Hop Labs](http://www.hoplabs.com)\n* [Webscale](https://webscale.fi/briefly-in-english/)\n* [API talent](http://www.apitalent.co.nz) - who also run [Serverless-Auckland Meetup](http://www.meetup.com/Serverless-Auckland)\n* [Branded Crate](https://www.brandedcrate.com/)\n* [cloudonaut](https://cloudonaut.io/serverless-consulting/)\n* [PromptWorks](https://www.promptworks.com/serverless/)\n* [Craftship](https://craftship.io)\n* [EPX Labs](http://www.epxlabs.com/) - runs [Serverless NYC Meetup](https://www.meetup.com/Serverless-NYC/)\n* [Red Badger](https://red-badger.com)\n* [Langa](http://langa.io/?utm_source=gh-serverless&utm_medium=github) - They built [Trails.js](http://github.com/trailsjs/trails)\n* [Emerging Technology Advisors](https://www.emergingtechnologyadvisors.com)\n* [OneSpeed](https://onespeed.io/)\n----\n\n# <a name="v.5"></a>Previous Serverless Version 0.5.x\n\nYou can find projects and plugins relating to version 0.5 [here](./0.5.x-RESOURCES.md). Note that these are not compatible with v1.0 but we are working diligently on updating them. [Guide on building v1.0 plugins](./docs/providers/aws/guide/plugins.md).\n\nYou can read the v0.5.x documentation at [readme.io](https://serverless.readme.io/v0.5.0/docs).\n',
+1013 silly resolved     readmeFilename: 'README.md',
+1013 silly resolved     bugs: { url: 'https://github.com/serverless/serverless/issues' },
+1013 silly resolved     _id: 'serverless@1.24.1',
+1013 silly resolved     dist: { shasum: 'f4d8bf4987c0f0ad354e816eab8c9b4f5291e26f' },
+1013 silly resolved     _from: 'serverless@',
+1013 silly resolved     _resolved: 'https://registry.npmjs.org/serverless/-/serverless-1.24.1.tgz' } ]
+1014 info install serverless@1.24.1 into /usr/lib
+1015 info installOne serverless@1.24.1
+1016 warn engine serverless@1.24.1: wanted: {"node":">=4.0"} (current: {"node":"v0.10.48","npm":"1.3.6"})
+1017 info /usr/lib/node_modules/serverless unbuild
+1018 verbose tar unpack /home/ec2-user/.npm/serverless/1.24.1/package.tgz
+1019 silly lockFile 69bf9e7b--usr-lib-node-modules-serverless tar:///usr/lib/node_modules/serverless
+1020 verbose lock tar:///usr/lib/node_modules/serverless /home/ec2-user/.npm/69bf9e7b--usr-lib-node-modules-serverless.lock
+1021 silly lockFile efe91d0d-pm-serverless-1-24-1-package-tgz tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz
+1022 verbose lock tar:///home/ec2-user/.npm/serverless/1.24.1/package.tgz /home/ec2-user/.npm/efe91d0d-pm-serverless-1-24-1-package-tgz.lock
+1023 silly gunzTarPerm modes [ '755', '644' ]
+1024 error Error: EACCES, mkdir '/usr/lib/node_modules/serverless'
+1024 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/serverless']
+1024 error   errno: 3,
+1024 error   code: 'EACCES',
+1024 error   path: '/usr/lib/node_modules/serverless',
+1024 error   fstream_type: 'Directory',
+1024 error   fstream_path: '/usr/lib/node_modules/serverless',
+1024 error   fstream_class: 'DirWriter',
+1024 error   fstream_stack:
+1024 error    [ '/usr/lib/node_modules/fstream/lib/dir-writer.js:36:23',
+1024 error      '/usr/lib/node_modules/mkdirp/index.js:37:53',
+1024 error      'Object.oncomplete (fs.js:108:15)' ] }
+1025 error Please try running this command again as root/Administrator.
+1026 error System Linux 4.9.62-21.56.amzn1.x86_64
+1027 error command "node" "/usr/bin/npm" "install" "serverless" "-g"
+1028 error cwd /home/ec2-user/working/pillow_test
+1029 error node -v v0.10.48
+1030 error npm -v 1.3.6
+1031 error path /usr/lib/node_modules/serverless
+1032 error fstream_path /usr/lib/node_modules/serverless
+1033 error fstream_type Directory
+1034 error fstream_class DirWriter
+1035 error code EACCES
+1036 error errno 3
+1037 error stack Error: EACCES, mkdir '/usr/lib/node_modules/serverless'
+1038 error fstream_stack /usr/lib/node_modules/fstream/lib/dir-writer.js:36:23
+1038 error fstream_stack /usr/lib/node_modules/mkdirp/index.js:37:53
+1038 error fstream_stack Object.oncomplete (fs.js:108:15)
+1039 verbose exit [ 3, true ]
